@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ivory text-charcoal font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-normal text-charcoal;
+  }
+
+  /* Visible keyboard focus everywhere — never suppressed */
+  :focus-visible {
+    outline: 2px solid theme("colors.wine.DEFAULT");
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: theme("colors.wine.light");
+    color: theme("colors.charcoal.DEFAULT");
+  }
+}
+
+@layer components {
+  /* Static eyebrow label used in a few places (e.g. dark footer) where the animated version isn't needed */
+  .eyebrow {
+    @apply text-eyebrow uppercase text-wine font-body font-semibold tracking-[0.28em];
+  }
+
+  /* Consistent hover lift for cards across the site */
+  .hover-lift {
+    @apply transition-transform duration-300 ease-silk hover:-translate-y-1.5;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
