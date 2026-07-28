@@ -12,26 +12,16 @@ import { SITE } from "@/constants/site";
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
+useEffect(() => {
+  const video = videoRef.current;
+  if (!video) return;
 
-    const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  video.muted = true;
 
-    const syncToMotionPreference = () => {
-      if (motionQuery.matches) {
-        video.pause();
-      } else {
-        video.play().catch(() => {
-          /* Autoplay can be blocked by the browser — poster image remains visible, which is fine. */
-        });
-      }
-    };
-
-    syncToMotionPreference();
-    motionQuery.addEventListener("change", syncToMotionPreference);
-    return () => motionQuery.removeEventListener("change", syncToMotionPreference);
-  }, []);
+  video.play().catch((err) => {
+    console.log("Video autoplay failed:", err);
+  });
+}, []);
 
   return (
     <section className="relative flex min-h-[92vh] items-center overflow-hidden bg-charcoal">
