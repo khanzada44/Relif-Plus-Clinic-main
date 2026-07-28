@@ -3,7 +3,7 @@ import { Award, Star, CreditCard, Zap, DoorOpen, Smartphone, Clock, MapPin, Hear
 
 const ITEMS: { label: string; icon: LucideIcon }[] = [
   { label: "Experienced Practitioners", icon: Award },
-  { label: "97+ Google Reviews ⭐⭐⭐⭐⭐", icon: Star },
+  { label: "98+ Google Reviews ⭐⭐⭐⭐⭐", icon: Star },
   { label: "Direct Billing Available for Eligible Services", icon: CreditCard },
   { label: "Same-Day Appointments Available, Availability May Vary", icon: Zap },
   { label: "Walk-In Appointments Welcome, Availability May Vary", icon: DoorOpen },

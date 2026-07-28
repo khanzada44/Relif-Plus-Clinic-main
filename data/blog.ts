@@ -1,8 +1,10 @@
 import type { BlogPost, BlogBlock } from "@/types";
 
 const TCM_IMAGE = "/images/services/traditional-chinese-medicine.png";
+const TCM_IMAGE_1 = "/images/blog-images/blog-1.png";
 const MANUAL_IMAGE = "/images/services/manual-therapy.png";
 const WELLNESS_IMAGE = "/images/services/wellness-body-care.png";
+const WELLNESS_IMAGE1 = "/images/blog-images/blog-2.png";
 
 const p = (text: string): BlogBlock => ({ type: "paragraph", text });
 const h = (text: string): BlogBlock => ({ type: "heading", text });
@@ -23,7 +25,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "June 20, 2026",
     readTime: "9 min read",
-    image: TCM_IMAGE,
+    image: TCM_IMAGE_1,
     content: [
       p("Acupuncture is one of the most widely recognized therapies within Traditional Chinese Medicine and has been practiced for centuries in various forms."),
       p("Today, many individuals choose acupuncture as part of their healthcare and wellness routine for a variety of reasons. Whether someone is looking for support with physical discomfort, stress management, sleep concerns, or general wellness, acupuncture is often incorporated into an individualized care plan."),
@@ -232,7 +234,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "June 5, 2026",
     readTime: "3 min read",
-    image: WELLNESS_IMAGE,
+    image: WELLNESS_IMAGE1,
     content: [
       p("Learn what Foot Massage is, what to expect during a session, and how this wellness-focused service is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),

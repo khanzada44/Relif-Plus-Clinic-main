@@ -6,6 +6,7 @@ import { TestimonialCard } from "@/components/sections/testimonial-card";
 import { Button } from "@/components/ui/button";
 import { GoogleIcon } from "@/components/shared/social-icons";
 import { SITE } from "@/constants/site";
+import  TrustIndex  from "@/components/sections/trust-index";
 
 export function TestimonialsSection() {
   return (
@@ -28,18 +29,19 @@ export function TestimonialsSection() {
           className="mx-auto max-w-2xl"
         />
 
-        <RevealGroup className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+      <TrustIndex/>
+        {/* <RevealGroup className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {testimonials.map((t) => (
             <RevealItem key={t.id}>
               <TestimonialCard testimonial={t} />
             </RevealItem>
           ))}
-        </RevealGroup>
+        </RevealGroup> */}
 
         <div className="mt-14 flex flex-wrap justify-center gap-4">
           <Button asChild variant="wine" size="lg">
             <a href={SITE.googleReviewUrl} target="_blank" rel="noopener noreferrer">
-              <GoogleIcon className="h-4 w-4" />
+              <GoogleIcon className="h-40 w-4" />
               Read Reviews on Google
             </a>
           </Button>
