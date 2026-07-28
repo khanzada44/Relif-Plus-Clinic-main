@@ -14,11 +14,11 @@ const GROUP_META: Record<string, { image: string; description: string }> = {
     description: "Traditional therapies rooted in Chinese medicine, Acupuncture, cupping, and bodywork.",
   },
   "Osteopathic Therapy": {
-    image: "/images/services/manual-therapy.png",
+    image: "/images/gallary/Osteopathic-Therapy.jpg",
     description: "Hands-on osteopathic care focused on movement, mobility, and posture.",
   },
   "Wellness & Body Care": {
-    image: "/images/services/wellness-body-care.png",
+    image: "/images/gallary/WellnessBodyCare.jpg",
     description: "Relaxation and wellness-focused treatments for the body and mind.",
   },
 };

@@ -410,8 +410,103 @@ export const localSeoPages: LocalSeoPage[] = [
     ],
     bookingHeading: "Book Your Osteopathic Therapy Appointment",
   },
+  {
+  slug: "brazilian-lymphatic-drainage-east-york",
+  serviceLabel: "Brazilian Lymphatic Drainage",
+  area: "East York",
+  seoTitle:
+    "Brazilian Lymphatic Drainage Near East York | Relief Plus Wellness Toronto",
+  metaDescription:
+    "Looking for Brazilian Lymphatic Drainage near East York? Relief Plus Wellness offers professional lymphatic drainage massage to reduce swelling, improve circulation, and support recovery. Book your appointment today.",
+  h1: "Brazilian Lymphatic Drainage Near East York Tuina Massage & Gua Sha in Toronto",
+  subheading:
+    "Relief Plus Wellness provides professional Brazilian Lymphatic Drainage just minutes from East York at 1403 Gerrard St E, Toronto. Our gentle lymphatic massage treatments are designed to reduce water retention, improve circulation, minimize bloating, and promote your body's natural detoxification process. Whether you're seeking post-surgical support, body contouring maintenance, or general wellness, our experienced practitioners provide personalized treatments tailored to your needs.",
+
+  whyChoose: [
+    "Minutes From East York",
+    "Open 7 Days A Week",
+    "Same-Day Appointments Available*",
+    "Walk-In Appointments Welcome*",
+    "Online Booking Available",
+    "Experienced Massage Therapists",
+    "Personalized Treatment Plans",
+    "Relaxing & Professional Clinic Environment",
+  ],
+
+  servicesAvailable: [
+    { title: "Brazilian Lymphatic Drainage Massage" },
+    { title: "Post-Surgical Lymphatic Drainage" },
+    { title: "Body Contouring Support Massage" },
+    { title: "Detox & Circulation Therapy" },
+    { title: "Swelling & Water Retention Relief" },
+    { title: "Wellness Lymphatic Massage" },
+    { title: "Relaxation Lymphatic Therapy" },
+  ],
+
+  practitionerSlugs: [
+    "mohammed-ghaleb",
+    "canyon-lee",
+    "sangeeta-kumar",
+  ],
+
+  faqs: [
+    {
+      question: "How far is your clinic from East York?",
+      answer:
+        "Relief Plus Wellness is conveniently located at 1403 Gerrard St E, only minutes from East York.",
+    },
+    {
+      question: "What are the benefits of Brazilian Lymphatic Drainage?",
+      answer:
+        "This treatment helps reduce swelling, improve circulation, decrease water retention, promote detoxification, and support post-surgical recovery.",
+    },
+    {
+      question: "Can I book online?",
+      answer:
+        "Yes. Online booking is available anytime through our website.",
+    },
+    {
+      question: "Do you offer same-day appointments?",
+      answer:
+        "Same-day appointments may be available depending on practitioner availability. Please call ahead to confirm.",
+    },
+  ],
+
+  serving: [
+    "East York",
+    "Leslieville",
+    "The Beaches",
+    "Riverdale",
+    "Danforth",
+    "Greenwood-Coxwell",
+    "Upper Beaches",
+    "East End Toronto",
+  ],
+
+  relatedServices: [
+    {
+      label: "Tuina Massage & Gua Sha",
+      href: "/services/tuina-massage-gua-sha",
+    },
+    {
+      label: "Registered Massage Therapy",
+      href: "/services/registered-massage-therapy",
+    },
+    {
+      label: "Cupping Therapy",
+      href: "/services/cupping-therapy",
+    },
+    {
+      label: "Osteopathic Therapy",
+      href: "/services/osteopathic-therapy",
+    },
+  ],
+
+  bookingHeading: "Book Your Brazilian Lymphatic Drainage Appointment",
+},
 ];
 
+console.log('hEllo',getLocalSeoPageBySlug("brazilian-lymphatic-drainage-east-york"));
 export function getLocalSeoPageBySlug(slug: string) {
   return localSeoPages.find((p) => p.slug === slug);
 }

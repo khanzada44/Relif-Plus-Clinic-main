@@ -36,6 +36,9 @@ const BLOG_LOCAL_SEO_LINKS: Record<string, string[]> = {
   "hijama-for-women-east-toronto": ["hijama-east-toronto", "hijama-toronto"],
   "osteopathy-east-toronto-first-visit": ["osteopathic-therapy-east-toronto"],
   "acupuncture-east-toronto-first-visit": ["acupuncture-east-toronto"],
+  "brazilian-lymphatic-drainage-what-to-know": [
+    "brazilian-lymphatic-drainage-east-york",
+  ],
 };
 
 function getRelatedLinksForPost(slug: string) {
@@ -51,6 +54,8 @@ function getRelatedLinksForPost(slug: string) {
 }
 
 export function generateStaticParams() {
+  console.log('Hello');
+  
   return blogPosts.map((p) => ({ slug: p.slug }));
 }
 

@@ -143,7 +143,7 @@ export function Footer() {
             </span>
           ))}
           {/* No dedicated page exists for these two combos yet — plain text, not a link. */}
-          <span>Brazilian Lymphatic Drainage Near East York - Tuina Massage & Gua Sha in Toronto</span>
+          {/* <span>Brazilian Lymphatic Drainage Near East York - Tuina Massage & Gua Sha in Toronto</span> */}
         </div>
 
         <Separator className="my-6 bg-ivory/10" />
