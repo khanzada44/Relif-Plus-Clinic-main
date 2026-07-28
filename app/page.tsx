@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { preload } from "react-dom";
 import { Hero } from "@/components/sections/hero";
-import { HERO_POSTER_IMAGE } from "@/lib/hero-media";
+// import { HERO_POSTER_IMAGE } from "@/lib/hero-media";
 import { WelcomeIntro } from "@/components/sections/welcome-intro";
 import { WhyChooseUs } from "@/components/sections/why-choose-us";
 import { TrustBar } from "@/components/sections/trust-bar";
@@ -37,7 +37,7 @@ export const metadata: Metadata = pageMetadata({
 });
 
 export default function HomePage() {
-  preload(HERO_POSTER_IMAGE, { as: "image", fetchPriority: "high" });
+  // preload(HERO_POSTER_IMAGE, { as: "image", fetchPriority: "high" });
 
   return (
     <>

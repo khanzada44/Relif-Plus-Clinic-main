@@ -6,7 +6,7 @@ import { m } from "framer-motion";
 import { Play, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/shared/container";
-import { HERO_POSTER_IMAGE } from "@/lib/hero-media";
+// import { HERO_POSTER_IMAGE } from "@/lib/hero-media";
 import { SITE } from "@/constants/site";
 
 export function Hero() {
@@ -50,7 +50,6 @@ export function Hero() {
           <video
             ref={videoRef}
             className="absolute inset-0 h-full w-full object-cover opacity-90"
-            poster={HERO_POSTER_IMAGE}
             muted
             loop
             playsInline
