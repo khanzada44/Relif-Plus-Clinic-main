@@ -21,21 +21,52 @@ export function Hero() {
     video.defaultMuted = true;
 
     const tryPlay = () => {
-      video.play().catch((err) => {
-        console.log("Video autoplay failed:", err);
-      });
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+          console.log("Video autoplay failed, will retry on interaction:", err);
+        });
+      }
     };
 
-    // try immediately
+    // try immediately on mount
     tryPlay();
 
-    // retry once metadata is ready (helps on some mobile browsers)
+    // retry once metadata/data is ready
     video.addEventListener("loadedmetadata", tryPlay);
     video.addEventListener("canplay", tryPlay);
+
+    // fallback: force play on first user interaction (fixes first-load block)
+    const forcePlayOnInteraction = () => {
+      if (video.paused) {
+        tryPlay();
+      }
+    };
+
+    const events: (keyof WindowEventMap)[] = [
+      "touchstart",
+      "touchend",
+      "click",
+      "scroll",
+    ];
+
+    events.forEach((evt) =>
+      window.addEventListener(evt, forcePlayOnInteraction, { once: true, passive: true })
+    );
+
+    // also retry when tab becomes visible again (some mobile browsers pause on bg)
+    const handleVisibility = () => {
+      if (document.visibilityState === "visible") {
+        tryPlay();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibility);
 
     return () => {
       video.removeEventListener("loadedmetadata", tryPlay);
       video.removeEventListener("canplay", tryPlay);
+      events.forEach((evt) => window.removeEventListener(evt, forcePlayOnInteraction));
+      document.removeEventListener("visibilitychange", handleVisibility);
     };
   }, []);
 
