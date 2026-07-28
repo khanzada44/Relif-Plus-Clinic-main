@@ -12,6 +12,7 @@ const TuinaOilMassage = "/images/services/TuinaOilMassage.png"
 const WellnessMassage = "/images/services/WellnessMassage.png"
 const FacialCupping = "/images/services/FacialCupping.png"
 const FootMassage = "/images/services/FootMassage.png"
+const HijamaforWomen = "/images/services/HijamaforWomen.png"
 const HeadMassage = "/images/services/HeadMassage.png"
 const HotStoneTherapy = "/images/services/HotStoneTherapy.png"
 const FacialAcupuncture = "/images/services/FacialAcupuncture.png"
@@ -108,7 +109,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "June 15, 2026",
     readTime: "8 min read",
-    image: TCM_IMAGE,
+    image: HijamaforWomen,
     content: [
       p("Many women interested in Wet Cupping (Hijama) have questions before booking their first appointment."),
       p("Common concerns include practitioner availability, privacy, comfort, modesty, and what to expect during treatment."),
