@@ -83,16 +83,8 @@ export default function JoinTeam() {
 
               <div>
                 <p className="font-semibold text-[#231C1B]">Working Hours</p>
-                <p>Monday - Sunday</p>
-                <p>10:00 AM - 7:00 PM</p>
-              </div>
-
-              <div>
-                <p className="font-semibold text-[#231C1B]">Hiring</p>
-                <p>
-                  Physiotherapists, Massage Therapists, Chiropractors,
-                  Receptionists and Administrative Staff.
-                </p>
+                <p>Open 7 Days a Week</p>
+                <p>10:00 AM – 7:00 PM</p>                
               </div>
             </div>
           </div>
@@ -188,7 +180,7 @@ export default function JoinTeam() {
                   type="text"
                   name="position"
                   className="w-full border rounded-xl p-4 mt-2"
-                  placeholder="Physiotherapist"
+                  placeholder="RMT"
                 />
               </div>
 

@@ -35,7 +35,7 @@ export const pricingTiers: PricingTier[] = [
     ],
   },
   {
-    category: "Massage",
+    category: "Massage ( Non RMT )",
     items: [
       { name: "Thai Oil Massage (Relaxation or Deep Pressure)", price: 100, unit: "60 min" },
       { name: "Thai Oil Massage (Relaxation or Deep Pressure)", price: 148, unit: "90 min" },

@@ -14,6 +14,7 @@ const FacialCupping = "/images/services/FacialCupping.png"
 const FootMassage = "/images/services/FootMassage.png"
 const HeadMassage = "/images/services/HeadMassage.png"
 const HotStoneTherapy = "/images/services/HotStoneTherapy.png"
+const FacialAcupuncture = "/images/services/FacialAcupuncture.png"
 const WELLNESS_IMAGE = "/images/services/wellness-body-care.png";
 const WELLNESS_IMAGE1 = "/images/blog-images/blog-2.png";
 
@@ -305,7 +306,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 23, 2026",
     readTime: "3 min read",
-    image: TCM_IMAGE,
+    image: FacialAcupuncture,
     content: [
       p("Learn what Facial Acupuncture is, what to expect during your first appointment, and how this wellness-focused service is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
