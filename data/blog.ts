@@ -16,7 +16,8 @@ const HijamaforWomen = "/images/services/HijamaforWomen.png"
 const HeadMassage = "/images/services/HeadMassage.png"
 const HotStoneTherapy = "/images/services/HotStoneTherapy.png"
 const FacialAcupuncture = "/images/services/FacialAcupuncture.png"
-const DirectBilling = "/images/services/DirectBilling.png"
+// const DirectBilling = "/images/services/DirectBilling.png"
+const DirectBilling = "/images/services/DirectBilling.jpg"
 const Acupuncture = "/images/gallary/image6.jpg"
 
 

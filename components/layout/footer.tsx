@@ -15,11 +15,11 @@ const AREAS_SERVED = [
 // Each entry only renders if its URL is configured (see .env.example) — no
 // platform is ever linked with a placeholder or guessed profile URL.
 const SOCIAL_PLATFORMS = [
-  { key: "instagram", label: "Instagram", url: SITE.social.instagram, Icon: InstagramIcon },
-  { key: "facebook", label: "Facebook", url: SITE.social.facebook, Icon: FacebookIcon },
-  { key: "tiktok", label: "TikTok", url: SITE.social.tiktok, Icon: TikTokIcon },
-  { key: "linkedin", label: "LinkedIn", url: SITE.social.linkedin, Icon: LinkedInIcon },
-  { key: "youtube", label: "YouTube", url: SITE.social.youtube, Icon: YoutubeIcon },
+  { key: "instagram", label: "Instagram", url: 'https://www.instagram.com/relief.plus.wellness/?hl=en', Icon: InstagramIcon },
+  { key: "facebook", label: "Facebook", url: 'https://www.facebook.com/p/Relief-Plus-Wellness-61577874874222/', Icon: FacebookIcon },
+  { key: "tiktok", label: "TikTok", url: 'https://www.tiktok.com/@relief.plus.wellness', Icon: TikTokIcon },
+  // { key: "linkedin", label: "LinkedIn", url: SITE.social.linkedin, Icon: LinkedInIcon },
+  // { key: "youtube", label: "YouTube", url: SITE.social.youtube, Icon: YoutubeIcon },
 ] as const;
 
 // Previously omitted FOOTER_LINKS.services entirely, which meant /offers and
@@ -37,7 +37,7 @@ export function Footer() {
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-ivory/60">{SITE.description}</p>
             <div className="mt-6 flex gap-6">
-              {SOCIAL_PLATFORMS.filter((p) => p.url).map(({ key, label, url, Icon }) => (
+              {SOCIAL_PLATFORMS.map(({ key, label, url, Icon }) => (
                 <a
                   key={key}
                   href={url}
