@@ -37,19 +37,17 @@ useEffect(() => {
           transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
           className="absolute inset-0"
         >
-          <video
-            ref={videoRef}
-            className="absolute inset-0 h-full w-full object-cover opacity-90"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            aria-hidden="true"
-          >
-            <source src="/videos/hero.webm" type="video/webm" />
-            <source src="/videos/hero.mp4" type="video/mp4" />
-          </video>
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="absolute inset-0 h-full w-full object-cover opacity-90"
+        >
+          <source src="/videos/hero.mp4" type="video/mp4" />
+        </video>
         </m.div>
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/30 to-charcoal/10" />
       </m.div>
