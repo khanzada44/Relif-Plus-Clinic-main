@@ -39,6 +39,7 @@ export const NAV_LINKS = [
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
+  { label: "Join Our Team", href: "/join-team" },
 ] as const;
 
 export const FOOTER_LINKS = {
