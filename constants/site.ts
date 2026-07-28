@@ -52,12 +52,12 @@ export const FOOTER_LINKS = {
   services: [
     { label: "Services", href: "/services" },
     { label: "Pricing", href: "/pricing" },
-    { label: "Current Offers", href: "/offers" },
-    { label: "Before & After", href: "/before-after" },
+    // { label: "Current Offers", href: "/offers" },
+    // { label: "Before & After", href: "/before-after" },
   ],
   support: [
     { label: "FAQ", href: "/faq" },
-    { label: "Testimonials", href: "/testimonials" },
+    // { label: "Testimonials", href: "/testimonials" },
     { label: "Contact", href: "/contact" },
     { label: "Book Appointment", href: "/book-appointment" },
     { label: "New Patient Information", href: "/new-patient-information" },

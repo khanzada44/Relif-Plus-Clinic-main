@@ -16,9 +16,9 @@ const HijamaforWomen = "/images/services/HijamaforWomen.png"
 const HeadMassage = "/images/services/HeadMassage.png"
 const HotStoneTherapy = "/images/services/HotStoneTherapy.png"
 const FacialAcupuncture = "/images/services/FacialAcupuncture.png"
+const DirectBilling = "/images/services/DirectBilling.png"
 const Acupuncture = "/images/gallary/image6.jpg"
-const WELLNESS_IMAGE = "/images/services/wellness-body-care.png";
-const WELLNESS_IMAGE1 = "/images/blog-images/blog-2.png";
+
 
 const p = (text: string): BlogBlock => ({ type: "paragraph", text });
 const h = (text: string): BlogBlock => ({ type: "heading", text });
@@ -181,7 +181,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "June 8, 2026",
     readTime: "8 min read",
-    image: MANUAL_IMAGE,
+    image: DirectBilling,
     content: [
       p("Many patients have questions about insurance coverage and direct billing before booking their first appointment."),
       p("Understanding how direct billing works can help simplify the appointment process and provide clarity regarding eligible services and insurance reimbursement."),

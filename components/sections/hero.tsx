@@ -95,7 +95,7 @@ export function Hero() {
               </a>
             </Button>
             <Button asChild variant="ghost" size="lg" className="text-ivory bg-ivory/10">
-              <Link href="#patient-journey">
+              <Link href="/about">
                 <Play className="h-4 w-4" /> Watch Our Story
               </Link>
             </Button>

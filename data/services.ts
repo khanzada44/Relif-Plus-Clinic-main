@@ -158,7 +158,7 @@ export const services: Service[] = [
   {
     slug: "hot-stone-therapy",
     category: "Wellness & Body Care",
-    title: "Hot Stone Therapy",
+    title: "Hot Stone",
     shortDescription: "Warmed stones used to ease muscle tension and deepen relaxation.",
     description:
       "Smooth, heated stones are placed and gently glided over the body to help ease muscle tension and encourage a deeper state of relaxation throughout the session.",
@@ -170,7 +170,7 @@ export const services: Service[] = [
   {
     slug: "herbal-compress-ball-therapy",
     category: "Wellness & Body Care",
-    title: "Herbal Compress Ball Therapy",
+    title: "Herbal Compress Ball",
     shortDescription: "Warm herbal compresses used to soothe muscles and support relaxation.",
     description:
       "Heated herbal compress balls are pressed and rolled over the body, releasing natural herbal warmth to soothe tired muscles and support a calming, therapeutic experience.",
@@ -179,6 +179,57 @@ export const services: Service[] = [
     image: "/images/gallary/image3.jpg",
     benefits: ["Natural herbal warmth", "Soothes tired muscles", "Deeply calming experience"],
   },
+{
+  slug: "signature-lymphatic-package",
+  category: "Brazilian Lymphatic Drainage",
+  title: "Signature Lymphatic Package",
+  shortDescription:
+    "3 lymphatic drainage sessions with a complimentary 30-minute relaxation massage.",
+  description:
+    "Includes three 60-minute Brazilian Lymphatic Drainage sessions to support circulation, reduce fluid retention, and promote tissue health. Also includes one complimentary 30-minute relaxation massage. Appointments are subject to availability. Services are within scope of practice. Results may vary.",
+  duration: "3 × 60 min",
+  priceFrom: 444,
+  image: "/images/services/Packages.png",
+  benefits: [
+    "3 Brazilian Lymphatic Drainage sessions",
+    "Complimentary 30-minute relaxation massage",
+    "Supports circulation",
+  ],
+},
+{
+  slug: "advanced-lymphatic-package",
+  category: "Brazilian Lymphatic Drainage",
+  title: "Advanced Lymphatic Package",
+  shortDescription:
+    "4 lymphatic drainage sessions with a complimentary 45-minute relaxation massage.",
+  description:
+    "Includes four 60-minute Brazilian Lymphatic Drainage sessions to support circulation, reduce fluid retention, and promote tissue health. Also includes one complimentary 45-minute relaxation massage. Appointments are subject to availability. Services are within scope of practice. Results may vary.",
+  duration: "4 × 60 min",
+  priceFrom: 555,
+  image: "/images/services/Packages.png",
+  benefits: [
+    "4 Brazilian Lymphatic Drainage sessions",
+    "Complimentary 45-minute relaxation massage",
+    "Supports circulation",
+  ],
+},
+{
+  slug: "ultimate-lymphatic-package",
+  category: "Brazilian Lymphatic Drainage",
+  title: "Ultimate Lymphatic Package",
+  shortDescription:
+    "5 lymphatic drainage sessions with a complimentary 60-minute relaxation massage.",
+  description:
+    "Includes five 60-minute Brazilian Lymphatic Drainage sessions to support circulation, reduce fluid retention, and promote overall tissue health. Also includes one complimentary 60-minute relaxation massage. Appointments are subject to availability. Services are within scope of practice. Results may vary.",
+  duration: "5 × 60 min",
+  priceFrom: 699,
+  image: "/images/services/Packages.png",
+  benefits: [
+    "5 Brazilian Lymphatic Drainage sessions",
+    "Complimentary 60-minute relaxation massage",
+    "Promotes overall tissue health",
+  ],
+},
 ];
 
 export const serviceCategories = Array.from(new Set(services.map((s) => s.category)));
