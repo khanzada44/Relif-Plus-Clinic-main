@@ -503,10 +503,9 @@ export const localSeoPages: LocalSeoPage[] = [
   ],
 
   bookingHeading: "Book Your Brazilian Lymphatic Drainage Appointment",
-},
+  },
 ];
 
-console.log('hEllo',getLocalSeoPageBySlug("brazilian-lymphatic-drainage-east-york"));
 export function getLocalSeoPageBySlug(slug: string) {
   return localSeoPages.find((p) => p.slug === slug);
 }
