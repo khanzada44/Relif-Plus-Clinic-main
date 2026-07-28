@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { m } from "framer-motion";
 import { Play, ArrowRight } from "lucide-react";
@@ -11,17 +11,33 @@ import { SITE } from "@/constants/site";
 
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
-useEffect(() => {
-  const video = videoRef.current;
-  if (!video) return;
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
 
-  video.muted = true;
+    video.muted = true;
+    video.defaultMuted = true;
 
-  video.play().catch((err) => {
-    console.log("Video autoplay failed:", err);
-  });
-}, []);
+    const tryPlay = () => {
+      video.play().catch((err) => {
+        console.log("Video autoplay failed:", err);
+      });
+    };
+
+    // try immediately
+    tryPlay();
+
+    // retry once metadata is ready (helps on some mobile browsers)
+    video.addEventListener("loadedmetadata", tryPlay);
+    video.addEventListener("canplay", tryPlay);
+
+    return () => {
+      video.removeEventListener("loadedmetadata", tryPlay);
+      video.removeEventListener("canplay", tryPlay);
+    };
+  }, []);
 
   return (
     <section className="relative flex min-h-[92vh] items-center overflow-hidden bg-charcoal">
@@ -37,17 +53,29 @@ useEffect(() => {
           transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
           className="absolute inset-0"
         >
-        <video
-          ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          className="absolute inset-0 h-full w-full object-cover opacity-90"
-        >
-          <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
+          {/* Fallback background so section isn't blank while video loads on mobile */}
+          <div
+            className={`absolute inset-0 bg-charcoal transition-opacity duration-700 ${
+              videoLoaded ? "opacity-0" : "opacity-100"
+            }`}
+          />
+
+          <video
+            ref={videoRef}
+            autoPlay
+            muted
+            loop
+            playsInline
+            // @ts-ignore - needed for older iOS Safari
+            webkit-playsinline="true"
+            disablePictureInPicture
+            preload="auto"
+            onCanPlay={() => setVideoLoaded(true)}
+            onLoadedData={() => setVideoLoaded(true)}
+            className="absolute inset-0 h-full w-full object-cover"
+          >
+            <source src="/videos/hero.mp4" type="video/mp4" />
+          </video>
         </m.div>
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/30 to-charcoal/10" />
       </m.div>
