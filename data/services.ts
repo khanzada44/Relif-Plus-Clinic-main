@@ -17,7 +17,7 @@ export const services: Service[] = [
       { label: "Initial 80 min", price: 148 },
       { label: "Follow-Up 60 min", price: 120 },
     ],
-    image: "/images/gallary/image6.jpeg",
+    image: "/images/gallary/image6.jpg",
     benefits: ["Registered practitioners", "Personalized point selection", "Supports pain relief & relaxation"],
     featured: true,
   },
@@ -34,7 +34,7 @@ export const services: Service[] = [
       { label: "Initial 60 min", price: 160 },
       { label: "Follow-Up 45 min", price: 135 },
     ],
-    image: "/images/gallary/image5.jpeg",
+    image: "/images/gallary/image5.jpg",
     benefits: ["Gentle, needle-based technique", "Complements a wellness routine", "Performed by registered practitioners"],
   },
   {
@@ -46,7 +46,7 @@ export const services: Service[] = [
       "Wet cupping, or Hijama, is a traditional therapy that combines cupping with a minor controlled release to support circulation and recovery. Every session follows strict hygiene and single-use protocols under the care of a trained practitioner.",
     duration: "45 min",
     priceFrom: 135,
-    image: "/images/gallary/image8.jpeg",
+    image: "/images/gallary/image8.jpg",
     benefits: ["Single-use, sterile equipment", "Traditional technique", "Performed by trained practitioners"],
   },
   {
@@ -58,7 +58,7 @@ export const services: Service[] = [
       "Cupping therapy uses suction cups placed on the skin to help release muscle tension, encourage circulation, and support recovery after physical activity or periods of stress.",
     duration: "60 min",
     priceFrom: 130,
-    image: "/images/gallary/image7.jpeg",
+    image: "/images/gallary/image7.png",
     benefits: ["Eases muscle tension", "Encourages circulation", "Often paired with acupuncture"],
   },
   {
@@ -93,11 +93,11 @@ export const services: Service[] = [
   // Manual Therapy
   {
     slug: "osteopathic-therapy",
-    category: "Manual Therapy",
+    category: "Osteopathic Therapy",
     title: "Osteopathic Therapy",
     shortDescription: "Hands-on osteopathic care focused on movement, mobility, and posture.",
     description:
-      "Osteopathic manual therapy takes a whole-body approach, using hands-on techniques to assess and address restrictions in movement, mobility, and posture. Sessions are tailored to concerns ranging from chronic pain to sports injuries and everyday tension.",
+      "Osteopathic therapy takes a whole-body approach, using hands-on techniques to assess and address restrictions in movement, mobility, and posture. Sessions are tailored to concerns ranging from chronic pain to sports injuries and everyday tension.",
     duration: "30–45 min",
     priceFrom: 90,
     image: "/images/gallary/image1.png",
@@ -115,7 +115,7 @@ export const services: Service[] = [
       "Brazilian lymphatic drainage is a specialized massage technique using rhythmic, gentle strokes to support the body's natural lymphatic flow, often chosen for post-activity recovery or general relaxation.",
     duration: "60–90 min",
     priceFrom: 148,
-    image: "/images/gallary/image11.jpeg",
+    image: "/images/gallary/image11.png",
     benefits: ["Rhythmic, gentle technique", "Supports natural lymphatic flow", "Popular for recovery & relaxation"],
     featured: true,
   },
@@ -128,7 +128,7 @@ export const services: Service[] = [
       "Thai oil massage combines warm oils with gentle stretching and therapeutic pressure to ease tension throughout the body, offering a deeply relaxing, full-body experience.",
     duration: "60–90 min",
     priceFrom: 100,
-    image: "/images/gallary/image4.jpeg",
+    image: "/images/gallary/image4.jpg",
     benefits: ["Full-body relaxation", "Combines oils & stretching", "Eases everyday tension"],
   },
   {
@@ -152,7 +152,7 @@ export const services: Service[] = [
       "A dedicated foot massage using targeted pressure to help ease tension and promote relaxation — a simple, effective way to unwind after time spent on your feet.",
     duration: "45–60 min",
     priceFrom: 80,
-    image: "/images/gallary/image12.jpeg",
+    image: "/images/gallary/image12.jpg",
     benefits: ["Targeted pressure technique", "Quick relaxation session", "Great as an add-on treatment"],
   },
   {
@@ -164,7 +164,7 @@ export const services: Service[] = [
       "Smooth, heated stones are placed and gently glided over the body to help ease muscle tension and encourage a deeper state of relaxation throughout the session.",
     duration: "60–90 min",
     priceFrom: 120,
-    image: "/images/gallary/image2.jpeg",
+    image: "/images/gallary/image2.jpg",
     benefits: ["Warmed stones ease tension", "Deeply relaxing", "Often paired with massage"],
   },
   {
@@ -176,7 +176,7 @@ export const services: Service[] = [
       "Heated herbal compress balls are pressed and rolled over the body, releasing natural herbal warmth to soothe tired muscles and support a calming, therapeutic experience.",
     duration: "60–90 min",
     priceFrom: 110,
-    image: "/images/gallary/image3.jpeg",
+    image: "/images/gallary/image3.jpg",
     benefits: ["Natural herbal warmth", "Soothes tired muscles", "Deeply calming experience"],
   },
 ];

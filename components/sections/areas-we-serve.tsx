@@ -35,7 +35,7 @@ export function AreasWeServe() {
             Greenwood-Coxwell, Upper Beaches, and surrounding communities.
           </p>
           <p className="leading-relaxed">
-            Patients choose {SITE.name} for Acupuncture, osteopathic manual therapy, Wet Cupping (Hijama),
+            Patients choose {SITE.name} for Acupuncture, osteopathic therapy, Wet Cupping (Hijama),
             Cupping Therapy, Brazilian Lymphatic Drainage, Thai Oil Massage, Tuina Massage, Gua Sha, and
             personalized wellness care. We are proud to serve individuals and families from across the Greater
             Toronto Area (GTA).

@@ -49,7 +49,7 @@ export const doctors: Doctor[] = [
     credential: "Osteopathic Manual Practitioner (M.OMSc)",
     languages: ["English"],
     image: "/images/team/faheem-kayum.png",
-    services: ["Osteopathic Manual Therapy", "Mobility Support", "Movement Optimization", "Postural Assessment", "Wellness & Recovery Support"],
+    services: ["Osteopathic Therapy", "Mobility Support", "Movement Optimization", "Postural Assessment", "Wellness & Recovery Support"],
     bio: [
       "Faheem is an experienced osteopathic manual practitioner who brings both precision and artistry to his hands-on approach. With a Master's in Osteopathic Manipulative Sciences from the Canadian Academy of Osteopathy, he combines direct and gentle manipulation techniques to address the body as a whole — connecting biomechanics, body systems, and the mind-body relationship.",
       "His clinical experience spans diverse populations, equipping him with a versatile skill set to help patients manage everything from chronic pain and sports injuries to concussions, pregnancy discomfort, and stress-related conditions. Faheem believes in empowering patients to understand their bodies and activate their natural healing abilities.",

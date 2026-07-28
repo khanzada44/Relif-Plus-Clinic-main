@@ -40,7 +40,7 @@ export const homeFaqs: FaqItem[] = [
   {
     category: "Pricing",
     question: "Is Osteopathy covered by insurance?",
-    answer: "Coverage for Osteopathic Manual Therapy varies by insurance provider and plan. Some extended health benefit plans may provide coverage when services are performed by eligible practitioners. We recommend contacting your insurance provider directly to confirm your specific coverage details.",
+    answer: "Coverage for Osteopathic Therapy varies by insurance provider and plan. Some extended health benefit plans may provide coverage when services are performed by eligible practitioners. We recommend contacting your insurance provider directly to confirm your specific coverage details.",
   },
   {
     category: "Treatments",

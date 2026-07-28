@@ -13,7 +13,7 @@ const GROUP_META: Record<string, { image: string; description: string }> = {
     image: "/images/services/traditional-chinese-medicine.png",
     description: "Traditional therapies rooted in Chinese medicine, Acupuncture, cupping, and bodywork.",
   },
-  "Manual Therapy": {
+  "Osteopathic Therapy": {
     image: "/images/services/manual-therapy.png",
     description: "Hands-on osteopathic care focused on movement, mobility, and posture.",
   },

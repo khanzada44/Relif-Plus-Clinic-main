@@ -9,7 +9,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMetadata({
   title: "Services",
-  description: "Explore acupuncture, Traditional Chinese Medicine, manual therapy, and wellness treatments at Relief Plus Wellness, our East Toronto clinic. Book online today.",
+  description: "Explore acupuncture, Traditional Chinese Medicine, Osteopathic Therapy, and wellness treatments at Relief Plus Wellness, our East Toronto clinic. Book online today.",
   path: "/services",
 });
 

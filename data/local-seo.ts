@@ -362,9 +362,9 @@ export const localSeoPages: LocalSeoPage[] = [
     slug: "osteopathic-therapy-east-toronto",
     serviceLabel: "Osteopathic Therapy",
     area: "East Toronto",
-    seoTitle: "Osteopathic Therapy East Toronto | Osteopathic Manual Therapy | Relief Plus Wellness",
+    seoTitle: "Osteopathic Therapy East Toronto | Osteopathic Therapy | Relief Plus Wellness",
     metaDescription:
-      "Professional Osteopathic Therapy in East Toronto at Relief Plus Wellness. Personalized manual therapy serving Leslieville & The Beaches. Book online today.",
+      "Professional Osteopathic Therapy in East Toronto at Relief Plus Wellness. Personalized therapy serving Leslieville & The Beaches. Book online today.",
     h1: "Osteopathic Therapy in East Toronto",
     subheading:
       "Relief Plus Wellness provides professional Osteopathic Therapy in East Toronto through a personalized, patient-focused approach designed to support movement, mobility, posture, and overall well-being. Conveniently located at 1403 Gerrard St E, Toronto, we proudly serve Leslieville, The Beaches, East York, Riverdale, Danforth, Greenwood-Coxwell, Upper Beaches, and surrounding communities.",
@@ -385,7 +385,7 @@ export const localSeoPages: LocalSeoPage[] = [
       "TTC Accessible",
     ],
     servicesAvailable: [
-      { title: "Osteopathic Manual Therapy" },
+      { title: "Osteopathic Therapy" },
       { title: "Mobility Support" },
       { title: "Movement Optimization" },
       { title: "Postural Assessment" },
