@@ -9,8 +9,12 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-   icons: {
-    icon: "/favicon.ico",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-for-app/icon0.svg", type: "image/svg+xml" },
+    ],
+    apple: "/favicon-for-app/apple-icon.png",
   },
   metadataBase: new URL(SITE.url),
   title: { default: `${SITE.name} | ${SITE.tagline}`, template: `%s | ${SITE.name}` },
