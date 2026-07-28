@@ -3,6 +3,17 @@ import type { BlogPost, BlogBlock } from "@/types";
 const TCM_IMAGE = "/images/services/traditional-chinese-medicine.png";
 const TCM_IMAGE_1 = "/images/blog-images/blog-1.png";
 const MANUAL_IMAGE = "/images/services/manual-therapy.png";
+const AcupuncturevsOsteopathy = "/images/services/AcupuncturevsOsteopathy.png"
+const BrazilianLymphatic = "/images/services/BrazilianLymphatic.png"
+const DryCuppingTherapy = "/images/services/DryCuppingTherapy.png"
+const FrequentlyAsked = "/images/services/FrequentlyAsked.png"
+const OsteopathyinEastToronto = "/images/services/OsteopathyinEastToronto.png"
+const TuinaOilMassage = "/images/services/TuinaOilMassage.png"
+const WellnessMassage = "/images/services/WellnessMassage.png"
+const FacialCupping = "/images/services/FacialCupping.png"
+const FootMassage = "/images/services/FootMassage.png"
+const HeadMassage = "/images/services/HeadMassage.png"
+const HotStoneTherapy = "/images/services/HotStoneTherapy.png"
 const WELLNESS_IMAGE = "/images/services/wellness-body-care.png";
 const WELLNESS_IMAGE1 = "/images/blog-images/blog-2.png";
 
@@ -234,7 +245,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "June 5, 2026",
     readTime: "3 min read",
-    image: WELLNESS_IMAGE1,
+    image: FootMassage,
     content: [
       p("Learn what Foot Massage is, what to expect during a session, and how this wellness-focused service is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -249,7 +260,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "June 3, 2026",
     readTime: "3 min read",
-    image: WELLNESS_IMAGE,
+    image: HeadMassage,
     content: [
       p("Learn what Head Massage is, what to expect during a session, and how this wellness-focused service is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -264,7 +275,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 30, 2026",
     readTime: "3 min read",
-    image: WELLNESS_IMAGE,
+    image: HotStoneTherapy,
     content: [
       p("Learn what Hot Stone Therapy is, what to expect during a session, and how this wellness-focused service is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -279,7 +290,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 27, 2026",
     readTime: "3 min read",
-    image: TCM_IMAGE,
+    image: FacialCupping,
     content: [
       p("Learn what Facial Cupping is, what to expect during a session, and how this wellness-focused service is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -309,7 +320,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 19, 2026",
     readTime: "4 min read",
-    image: TCM_IMAGE,
+    image: AcupuncturevsOsteopathy,
     content: [
       p("Not sure whether to choose acupuncture or osteopathy? Learn the differences between these two wellness services and what to expect when visiting Relief Plus Wellness in East Toronto."),
       p("Your practitioner can help you understand which approach — or combination of approaches — may be appropriate for your individual goals and circumstances."),
@@ -324,7 +335,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 15, 2026",
     readTime: "5 min read",
-    image: WELLNESS_IMAGE,
+    image: WellnessMassage,
     content: [
       p("Learn about Head Massage, Foot Massage, Thai Oil Massage, Deep Tissue Massage, Relaxation Oil Massage, and Hot Stone Therapy at Relief Plus Wellness in East Toronto."),
       p("These wellness-focused massage services are generally not eligible for insurance reimbursement — patients should contact their insurance provider directly to confirm coverage and eligibility."),
@@ -339,7 +350,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 11, 2026",
     readTime: "3 min read",
-    image: WELLNESS_IMAGE,
+    image: TuinaOilMassage,
     content: [
       p("Learn what Tuina Oil Massage and Gua Sha are, what to expect during a session, and how these wellness-focused services are offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -354,7 +365,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 7, 2026",
     readTime: "3 min read",
-    image: WELLNESS_IMAGE,
+    image: BrazilianLymphatic,
     content: [
       p("Learn what Brazilian Lymphatic Drainage is, what to expect during a session, and how this wellness-focused treatment is offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -369,7 +380,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "May 3, 2026",
     readTime: "3 min read",
-    image: TCM_IMAGE,
+    image: DryCuppingTherapy,
     content: [
       p("Learn what Dry Cupping Therapy and Moving Cupping are, what to expect during treatment, and how these wellness services are offered at Relief Plus Wellness in East Toronto."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
@@ -384,7 +395,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "April 29, 2026",
     readTime: "4 min read",
-    image: TCM_IMAGE,
+    image: FrequentlyAsked,
     content: [
       p("Frequently asked questions about Wet Cupping (Hijama) at Relief Plus Wellness in East Toronto — safety, what to expect, appointment length, and female practitioner availability."),
       p("Our team is happy to answer any additional questions you may have before booking your appointment."),
@@ -399,7 +410,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "April 25, 2026",
     readTime: "5 min read",
-    image: MANUAL_IMAGE,
+    image: OsteopathyinEastToronto,
     content: [
       p("Considering osteopathy in East Toronto? Learn what to expect during your first osteopathic therapy appointment at Relief Plus Wellness, including assessment, treatment, aftercare, and direct billing information."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
