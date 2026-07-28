@@ -100,7 +100,7 @@ export const services: Service[] = [
       "Osteopathic therapy takes a whole-body approach, using hands-on techniques to assess and address restrictions in movement, mobility, and posture. Sessions are tailored to concerns ranging from chronic pain to sports injuries and everyday tension.",
     duration: "30–45 min",
     priceFrom: 90,
-    image: "/images/gallary/image1.png",
+    image: "/images/gallary/Osteopathic-Therapy.jpg",
     benefits: ["Whole-body, hands-on approach", "Supports mobility & posture", "Tailored to your concerns"],
     featured: true,
   },

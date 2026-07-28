@@ -7,7 +7,7 @@ const AcupuncturevsOsteopathy = "/images/services/AcupuncturevsOsteopathy.png"
 const BrazilianLymphatic = "/images/services/BrazilianLymphatic.png"
 const DryCuppingTherapy = "/images/services/DryCuppingTherapy.png"
 const FrequentlyAsked = "/images/services/FrequentlyAsked.png"
-const OsteopathyinEastToronto = "/images/services/OsteopathyinEastToronto.png"
+const OsteopathyinEastToronto = "/images/gallary/Osteopathic-Therapy.jpg"
 const TuinaOilMassage = "/images/services/TuinaOilMassage.png"
 const WellnessMassage = "/images/services/WellnessMassage.png"
 const FacialCupping = "/images/services/FacialCupping.png"
@@ -15,6 +15,7 @@ const FootMassage = "/images/services/FootMassage.png"
 const HeadMassage = "/images/services/HeadMassage.png"
 const HotStoneTherapy = "/images/services/HotStoneTherapy.png"
 const FacialAcupuncture = "/images/services/FacialAcupuncture.png"
+const Acupuncture = "/images/gallary/image6.jpg"
 const WELLNESS_IMAGE = "/images/services/wellness-body-care.png";
 const WELLNESS_IMAGE1 = "/images/blog-images/blog-2.png";
 
@@ -426,7 +427,7 @@ export const blogPosts: BlogPost[] = [
     author: "Relief Plus Wellness Team",
     date: "April 21, 2026",
     readTime: "5 min read",
-    image: TCM_IMAGE,
+    image: Acupuncture,
     content: [
       p("Booking your first acupuncture appointment in East Toronto? Learn what to expect at Relief Plus Wellness, including consultation, treatment, aftercare, direct billing, and insurance coverage information."),
       p("Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit."),
