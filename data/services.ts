@@ -74,7 +74,7 @@ export const services: Service[] = [
       { label: "60 min", price: 135 },
       { label: "90 min", price: 220 },
     ],
-    image: TCM_IMAGE,
+    image: "/images/gallary/image13.jpg",
     benefits: ["Traditional bodywork technique", "Eases muscular tension", "Can be combined with cupping"],
   },
   {
