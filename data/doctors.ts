@@ -62,11 +62,11 @@ export const doctors: Doctor[] = [
     credential: "Holistic Wellness Practitioner",
     languages: ["English", "Ukrainian", "Russian"],
     image: "/images/team/kirena-mishchenko.png",
-    services: ["Thai Oil Massage", "Head Massage", "Hot Stone Therapy", "Foot Massage", "Herbal Compress Ball Therapy", "Brazilian Lymphatic Drainage"],
+    services: ["Thai Oil Massage", "Head Massage", "Hot Stone Therapy", "Foot Massage", "Herbal Compress Ball", "Brazilian Lymphatic Drainage"],
     note: "Services provided are non-RMT and are not eligible for RMT insurance claims.",
     bio: [
       "Kirena is a dedicated Holistic Wellness Practitioner committed to helping clients achieve relaxation, balance, and overall well-being through personalized, client-centered care. Her approach combines mindful bodywork and natural wellness therapies designed to ease tension, promote relaxation, and support the body's natural healing process.",
-      "Kirena offers a variety of holistic wellness services, including Brazilian Lymphatic Drainage, Thai Oil Massage, Aromatherapy, ThetaHealing, Herbal Compress Ball Therapy, Hot Stone Relaxation, and other gentle body-focused treatments that help clients reconnect with their physical and emotional well-being.",
+      "Kirena offers a variety of holistic wellness services, including Brazilian Lymphatic Drainage, Thai Oil Massage, Aromatherapy, ThetaHealing, Herbal Compress Ball, Hot Stone Relaxation, and other gentle body-focused treatments that help clients reconnect with their physical and emotional well-being.",
       "Every session is tailored to the individual and provided in a safe, comfortable, and respectful environment. Kirena is passionate about creating a calming experience where clients can unwind, restore balance, and leave feeling refreshed, lighter, and more grounded.",
       "Fluent in English, Ukrainian, and Russian, Kirena warmly welcomes clients from diverse backgrounds and strives to provide a supportive and inclusive wellness experience.",
     ],

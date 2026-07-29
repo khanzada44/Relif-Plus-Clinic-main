@@ -42,20 +42,39 @@ export default function PricingPage() {
                 <div className="mt-5 divide-y divide-charcoal/10 rounded-2xl border border-charcoal/10">
                   {tier.items.map((item) => (
                     // <div key={item.name} className="flex items-center justify-between px-6 py-4">
+                    // <div
+                    //   key={`${tier.category}-${item.name}-${item.unit}-${item.price}`}
+                    //   className="flex items-center justify-between px-6 py-4"
+                    // >
+                    //   <span className="text-charcoal">{item.name}</span>
+                    //   <span className="font-display text-lg text-wine-dark">
+                    //     {formatPrice(item.price)}
+                    //     {item.unit && (
+                    //       <span className="ml-1 text-xs text-stone">
+                    //         / {item.unit}
+                    //       </span>
+                    //     )}
+                    //   </span>
+                    // </div>
                     <div
-                      key={`${tier.category}-${item.name}-${item.unit}-${item.price}`}
-                      className="flex items-center justify-between px-6 py-4"
-                    >
-                      <span className="text-charcoal">{item.name}</span>
-                      <span className="font-display text-lg text-wine-dark">
-                        {formatPrice(item.price)}
-                        {item.unit && (
-                          <span className="ml-1 text-xs text-stone">
-                            / {item.unit}
+                        key={`${tier.category}-${item.name}-${item.unit}-${item.price}`}
+                        className="flex flex-col gap-2 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-6"
+                      >
+                        <span className="text-charcoal">
+                          {item.name}
+                        </span>
+
+                        <div className="text-left sm:text-right">
+                          <span className="font-display text-lg text-wine-dark whitespace-nowrap">
+                            {formatPrice(item.price)}
+                            {item.unit && (
+                              <span className="ml-1 text-xs text-stone">
+                                / {item.unit}
+                              </span>
+                            )}
                           </span>
-                        )}
-                      </span>
-                    </div>
+                        </div>
+                      </div>
                   ))}
                 </div>
               </Reveal>
