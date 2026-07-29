@@ -14,22 +14,30 @@ export function GalleryPreview() {
     <section className="bg-white py-24 md:py-32">
       <Container>
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <SectionHeading eyebrow="Gallery" title="Take a look inside the clinic" />
+          <SectionHeading
+            eyebrow="Gallery"
+            title="Take a look inside the clinic"
+          />
           <Button asChild variant="outline">
             <Link href="/gallery">
-              View Full Gallery <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+              View Full Gallery{" "}
+              <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>
           </Button>
         </div>
 
         <RevealGroup className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-3">
-          {shots.map((shot) => (
+          {shots.map((shot, index) => (
             <RevealItem key={shot.id}>
-              <Link href="/gallery" className="group relative block aspect-square overflow-hidden rounded-2xl">
+              <Link
+                href="/gallery"
+                className="group relative block aspect-square overflow-hidden rounded-2xl"
+              >
                 <Image
                   src={shot.image}
                   alt={shot.caption}
                   fill
+                  priority={index === 0}
                   className="object-cover transition-transform duration-700 ease-silk group-hover:scale-110"
                   sizes="(max-width: 768px) 50vw, 33vw"
                 />
