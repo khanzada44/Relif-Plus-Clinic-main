@@ -26,14 +26,14 @@ export async function POST(req: Request) {
       port: 465,
       secure: true,
       auth: {
-        user: "info@reliefpluswellness.com",
-        pass: "11223344@Azz",
+        user: "askme@reliefpluswellness.com",
+        pass: "11223344@AAa",
       },
     });
 
     await transporter.sendMail({
-      from: `"Relief Plus Wellness" <info@reliefpluswellness.com>`,
-      to: "info@reliefpluswellness.com",
+      from: `"Relief Plus Wellness" <askme@reliefpluswellness.com>`,
+      to: "askme@reliefpluswellness.com",
       replyTo: email,
       subject: `New Job Application - ${fullName}`,
       html: `
