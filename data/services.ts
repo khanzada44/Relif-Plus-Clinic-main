@@ -180,6 +180,49 @@ export const services: Service[] = [
     benefits: ["Natural herbal warmth", "Soothes tired muscles", "Deeply calming experience"],
   },
 {
+  slug: "shiatsu-massage",
+  category: "Traditional Japanese Bodywork",
+  title: "Shiatsu Massage",
+  shortDescription: "Traditional Japanese hands-on therapy using pressure-point techniques to promote relaxation and relieve muscle tension.",
+  description:
+    "Shiatsu Massage is a traditional Japanese hands-on therapy that uses comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Every session is personalized to your comfort and wellness goals.",
+  duration: "60 min – 90 min",
+  priceFrom: 100,
+  priceTiers: [
+    { label: "60 min", price: 100 },
+    { label: "90 min", price: 148 },
+  ],
+  image: "/images/services/ShiatsuMassage.png",
+  benefits: [
+    "Traditional Japanese pressure-point techniques",
+    "Helps relieve muscle tension and everyday stress",
+    "Promotes relaxation and overall well-being",
+    "Personalized treatment based on your needs",
+  ],
+},
+{
+  slug: "aromatherapy-massage",
+  category: "Traditional Wellness Therapy",
+  title: "Aromatherapy Massage",
+  shortDescription: "Therapeutic massage combined with premium essential oils to promote relaxation and overall well-being.",
+  description:
+    "Aromatherapy Massage combines therapeutic massage techniques with carefully selected essential oils to promote relaxation, ease muscle tension, and create a calming sensory experience. Each treatment is customized using professional-grade essential oils chosen to complement your wellness goals and preferences.",
+  duration: "60 min – 90 min",
+  priceFrom: 110,
+  priceTiers: [
+    { label: "60 min", price: 110 },
+    { label: "90 min", price: 145 },
+  ],
+  image: "/images/services/AromatherapyMassage.png",
+  benefits: [
+    "Premium essential oils selected for your session",
+    "Helps promote relaxation and reduce everyday stress",
+    "Relieves muscle tension and encourages deep relaxation",
+    "Personalized aromatherapy blend based on your preferences",
+  ],
+},
+  
+{
   slug: "signature-lymphatic-package",
   category: "Brazilian Lymphatic Drainage",
   title: "Signature Lymphatic Package",

@@ -75,7 +75,7 @@ export function ServiceCard({ service }: { service: Service }) {
         ) : (
           <div className="mt-5 flex items-center justify-between text-sm text-stone">
             <span>{service.duration}</span>
-            <span className="font-medium text-charcoal">From {formatPrice(service.priceFrom)}</span>
+            <span className="font-medium text-charcoal">{formatPrice(service.priceFrom)}</span>
           </div>
         )}
         <div className="mt-6 flex gap-3">
