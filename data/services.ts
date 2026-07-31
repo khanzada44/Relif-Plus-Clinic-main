@@ -202,18 +202,34 @@ export const services: Service[] = [
 },
 {
   slug: "aromatherapy-massage",
+
   category: "Traditional Wellness Therapy",
+
   title: "Aromatherapy Massage",
-  shortDescription: "Therapeutic massage combined with premium essential oils to promote relaxation and overall well-being.",
+
+  shortDescription:
+    "Aromatherapy Massage combines therapeutic massage techniques with carefully selected essential oils to promote relaxation, ease muscle tension, and create a calming sensory experience.",
+
   description:
     "Aromatherapy Massage combines therapeutic massage techniques with carefully selected essential oils to promote relaxation, ease muscle tension, and create a calming sensory experience. Each treatment is customized using professional-grade essential oils chosen to complement your wellness goals and preferences.",
+
   duration: "60 min – 90 min",
+
   priceFrom: 110,
+
   priceTiers: [
-    { label: "60 min", price: 110 },
-    { label: "90 min", price: 145 },
+    {
+      label: "60 min",
+      price: 110,
+    },
+    {
+      label: "90 min",
+      price: 145,
+    },
   ],
+
   image: "/images/services/AromatherapyMassage.png",
+
   benefits: [
     "Premium essential oils selected for your session",
     "Helps promote relaxation and reduce everyday stress",

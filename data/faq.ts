@@ -92,7 +92,78 @@ export const faqs: FaqItem[] = [
     question: "What is your cancellation policy?",
     answer: "We kindly ask for as much notice as possible if you need to reschedule or cancel your appointment. Please contact our clinic directly for the full details of our cancellation policy.",
   },
-
+  {
+  category: "Shiatsu Massage",
+  question: "What is Shiatsu Massage?",
+  answer:
+    "Shiatsu is a traditional Japanese massage that uses finger pressure, palm pressure, gentle stretching, and joint mobilization along the body's energy pathways to promote relaxation and support overall wellness.",
+},
+{
+  category: "Shiatsu Massage",
+  question: "Does Shiatsu Massage hurt?",
+  answer:
+    "Shiatsu is generally comfortable and relaxing. Pressure is adjusted to your comfort level, and your therapist will communicate with you throughout the session.",
+},
+{
+  category: "Shiatsu Massage",
+  question: "Do I need to remove my clothing?",
+  answer:
+    "Shiatsu can be performed while wearing loose, comfortable clothing. Depending on your treatment plan, your practitioner will explain the most appropriate approach before your session.",
+},
+{
+  category: "Shiatsu Massage",
+  question: "What should I wear?",
+  answer:
+    "Loose, comfortable clothing is recommended if the treatment is performed fully clothed. If massage oil is incorporated, appropriate draping will be provided to ensure your comfort and privacy.",
+},
+{
+  category: "Shiatsu Massage",
+  question: "Who can benefit from Shiatsu Massage?",
+  answer:
+    "Shiatsu may be suitable for individuals looking to reduce muscle tension, relax, improve flexibility, and support their overall wellness routine.",
+},
+{
+  category: "Shiatsu Massage",
+  question: "Is Shiatsu Massage covered by insurance?",
+  answer:
+    "Coverage depends on your insurance plan. If the treatment is provided by a Registered Massage Therapist (RMT), it may be eligible for reimbursement. Please check with your insurance provider for details.",
+},
+{
+  category: "Aromatherapy Massage",
+  question: "What is Aromatherapy Massage?",
+  answer:
+    "Aromatherapy Massage combines professional massage therapy with diluted essential oils applied during treatment or inhaled through their natural aroma to enhance relaxation and overall wellness.",
+},
+{
+  category: "Aromatherapy Massage",
+  question: "What essential oils are used?",
+  answer:
+    "Your practitioner will select high-quality essential oils based on your preferences and wellness goals. Common options include lavender, eucalyptus, peppermint, sweet orange, and bergamot.",
+},
+{
+  category: "Aromatherapy Massage",
+  question: "Will the massage oil feel greasy?",
+  answer:
+    "No. Professional massage oils are formulated to provide smooth glide while absorbing comfortably into the skin.",
+},
+{
+  category: "Aromatherapy Massage",
+  question: "Can I choose my scent?",
+  answer:
+    "Yes. If you have a preferred aroma or wish to avoid certain scents, your therapist will help you choose an appropriate essential oil blend.",
+},
+{
+  category: "Aromatherapy Massage",
+  question: "Is Aromatherapy Massage suitable for everyone?",
+  answer:
+    "Most people can enjoy Aromatherapy Massage. However, if you have allergies, asthma, sensitive skin, are pregnant, or have certain medical conditions, please let your practitioner know before your treatment so the essential oils can be selected appropriately.",
+},
+{
+  category: "Aromatherapy Massage",
+  question: "Is Aromatherapy Massage covered by insurance?",
+  answer:
+    "Insurance coverage depends on your provider and the practitioner's designation. If the massage is performed by a Registered Massage Therapist (RMT), it may be eligible for reimbursement under your plan. Please verify your coverage with your insurance provider.",
+},
   // Acupuncture
   {
     category: "Acupuncture",

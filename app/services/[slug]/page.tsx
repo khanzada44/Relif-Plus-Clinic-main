@@ -23,6 +23,8 @@ const SERVICE_FAQ_CATEGORY: Record<string, string> = {
   "wet-cupping-hijama": "Hijama (Wet Cupping)",
   "facial-cupping": "Hijama (Wet Cupping)",
   "osteopathic-therapy": "Osteopathic Therapy",
+   "aromatherapy-massage": "Aromatherapy Massage",
+   "shiatsu-massage": "Shiatsu Massage",
 };
 
 // Maps a service to the local-SEO location pages that cover the same
