@@ -23,6 +23,7 @@ export interface Doctor {
   services: string[];
   image: string;
   note?: string;
+  specialty?: string;
 }
 
 export type GalleryCategory =

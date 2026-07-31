@@ -36,6 +36,7 @@ export default function DoctorsPage() {
         <Container>
           <RevealGroup className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">
             {doctors.map((doctor) => (
+
               <RevealItem key={doctor.slug} className="flex flex-col text-center">
                 <Link href={`/doctors/${doctor.slug}`} className="group block hover-lift">
                   <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-champagne/30">
@@ -48,6 +49,7 @@ export default function DoctorsPage() {
                     />
                   </div>
                   <h2 className="mt-5 font-display text-lg text-charcoal">{doctor.name}</h2>
+                  {/* <p className="mt-1 text-xs uppercase tracking-wide text-wine-dark">{doctor.specialty}</p> */}
                   <p className="mt-1 text-xs uppercase tracking-wide text-wine-dark">{doctor.credential}</p>
                 </Link>
 

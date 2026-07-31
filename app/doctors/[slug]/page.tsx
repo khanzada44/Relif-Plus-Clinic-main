@@ -57,6 +57,7 @@ export default async function DoctorProfilePage({ params }: { params: Promise<{ 
             {doctor.pronouns && <span className="text-sm text-stone">({doctor.pronouns})</span>}
           </div>
           <p className="mt-2 text-lg text-wine-dark">{doctor.credential}</p>
+          <p className="mt-1 text-xs uppercase tracking-wide text-wine-dark">{doctor.specialty}</p>
           <p className="mt-1 text-sm text-stone">{doctor.languages.join(" · ")}</p>
 
           <div className="mt-8 max-w-2xl space-y-4 leading-relaxed text-stone">
