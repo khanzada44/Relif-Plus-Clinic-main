@@ -648,16 +648,7 @@ export const blogPosts: BlogPost[] = [
         "Mayo Clinic",
         "International Society of Lymphology",
       ]),
- 
-      // Internal links
-      h2("Recommended Internal Links for Relief Plus Wellness"),
-        ul([
-          "services/brazilian-lymphatic-drainage",
-          "services",
-          "wellness-services",
-          "contact",
-          "book-now",
-        ]),
+        
     ],
   },
 ];
