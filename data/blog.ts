@@ -1877,7 +1877,7 @@ export const blogPosts: BlogPost[] = [
   author: "Relief Plus Wellness Team",
   date: "July 31, 2026",
   readTime: "9 min read",
-  image: WellnessMassage,
+  image: TuinaOilMassage,
   content: [
     p(
       "Whether you're dealing with everyday stress, muscle tension from work, or simply looking to invest in your overall well-being, wellness massage can be an excellent addition to your self-care routine. If you've never had a professional massage before, it's normal to have questions about what happens during a session, how to prepare, and which type of massage is right for you."
@@ -2158,7 +2158,7 @@ export const blogPosts: BlogPost[] = [
   author: "Relief Plus Wellness Team",
   date: "July 31, 2026",
   readTime: "9 min read",
-  image: TuinaOilMassage,
+  image: WellnessMassage,
   content: [
     p(
       "If you're exploring complementary wellness therapies, you've likely come across Tuina (Tui Na) Massage and Gua Sha. Both are traditional techniques that originated in China and have been practiced for centuries. Today, many people choose these therapies to help relieve muscle tension, promote relaxation, and support overall well-being."
@@ -3566,6 +3566,342 @@ p(
       ]),
     ],
   },
+  {
+  slug: "shiatsu-massage-toronto",
+  title:
+    "Shiatsu Massage (Japanese Acupressure): What You Should Know Before Your First Session",
+  excerpt:
+    "Learn what Shiatsu Massage (Japanese Acupressure) is, how it works, what to expect during your first session, potential benefits, and what current research says.",
+  category: "Wellness Treatments",
+  author: "Relief Plus Wellness Team",
+  date: "August 1, 2026",
+  readTime: "8 min read",
+  image: "/images/services/ShiatsuMassage.png",
+  content: [
+    h2(
+      "Shiatsu Massage (Japanese Acupressure): What You Should Know Before Your First Session"
+    ),
+
+    p(
+      "If you're looking for a massage that promotes relaxation without the use of oils, Shiatsu Massage may be an excellent choice. Originating in Japan, Shiatsu is a traditional bodywork technique that uses gentle finger, palm, thumb, and elbow pressure to encourage relaxation and support overall well-being."
+    ),
+
+    p(
+      "At Relief Plus Wellness, we offer 60-minute and 90-minute Shiatsu Massage sessions tailored to your individual needs. Whether you're feeling stressed, experiencing muscle tightness, or simply looking to unwind, Shiatsu provides a calming, hands-on wellness experience."
+    ),
+
+    p(
+      "This guide explains what Shiatsu is, what to expect during your first appointment, its potential benefits, and what current research says."
+    ),
+
+    h2("What Is Shiatsu Massage?"),
+
+    p(
+      'The word "Shiatsu" means "finger pressure" in Japanese. Shiatsu is a form of Japanese bodywork developed from traditional healing practices. Unlike many Western massage techniques, Shiatsu is typically performed without massage oils while the client remains comfortably clothed.'
+    ),
+
+    p("The practitioner applies rhythmic pressure using:"),
+
+    ul([
+      "Fingers",
+      "Thumbs",
+      "Palms",
+      "Elbows (when appropriate)",
+      "Gentle stretching",
+      "Joint mobilization",
+    ]),
+
+    p(
+      "Treatment is personalized according to your comfort level and wellness goals."
+    ),
+
+    h2("How Is Shiatsu Different from Traditional Massage?"),
+
+    p(
+      "Shiatsu differs from many massage styles in several ways."
+    ),
+
+    ul([
+      "Performed fully clothed",
+      "No massage oils or lotions required",
+      "Uses finger, thumb, and palm pressure",
+      "Focuses on pressure points and gentle stretching",
+      "Traditional massage generally uses gliding strokes with massage oil"
+    ]),
+
+    h2("What Happens During Your First Appointment?"),
+
+    p(
+      "Your session begins with a consultation. Your practitioner may ask about:"
+    ),
+
+    ul([
+      "Your health history",
+      "Areas of muscle tension",
+      "Previous injuries",
+      "Daily activities",
+      "Stress levels",
+      "Wellness goals",
+    ]),
+
+    p(
+      "You will remain dressed in comfortable clothing while lying on a treatment table or futon."
+    ),
+
+    p("Treatment may include:"),
+
+    ul([
+      "Gentle pressure",
+      "Stretching",
+      "Compression techniques",
+      "Assisted movement",
+      "Relaxation-focused techniques",
+    ]),
+
+    p(
+      "Sessions are available in 60-minute and 90-minute options."
+    ),
+
+    h2("Potential Benefits"),
+
+    p("Many clients choose Shiatsu to support:"),
+
+    ul([
+      "Relaxation",
+      "Muscle tension relief",
+      "Neck and shoulder tightness",
+      "General stiffness",
+      "Stress management",
+      "Overall wellness",
+    ]),
+
+    p(
+      "Individual experiences vary, and Shiatsu should be considered a complementary wellness therapy."
+    ),
+
+    h2("What Does the Research Say?"),
+
+    p(
+      "Research on Shiatsu remains limited compared with other forms of massage. Some studies suggest Shiatsu may help improve relaxation, quality of life, and temporary musculoskeletal discomfort for some individuals."
+    ),
+
+    p("However:"),
+
+    ul([
+      "More high-quality clinical trials are needed.",
+      "Evidence varies depending on the condition studied.",
+      "Shiatsu should not replace appropriate medical care.",
+    ]),
+
+    h2("Frequently Asked Questions"),
+
+    h2("Do I remove my clothes?"),
+    p(
+      "No. Shiatsu is traditionally performed while you remain fully clothed in comfortable, loose-fitting clothing."
+    ),
+
+    h2("Does Shiatsu hurt?"),
+    p(
+      "Shiatsu uses firm but comfortable pressure. If any technique feels too strong, your practitioner can adjust it immediately."
+    ),
+
+    h2("Is Shiatsu the same as acupuncture?"),
+    p(
+      "No. Shiatsu uses finger pressure instead of needles. Both therapies have roots in East Asian healing traditions but use different techniques."
+    ),
+
+    h2("How often should I receive Shiatsu?"),
+    p(
+      "Some clients enjoy monthly sessions for relaxation, while others book more frequently depending on their wellness goals."
+    ),
+
+    h2("Final Thoughts"),
+
+    p(
+      "Shiatsu Massage offers a unique, hands-on approach to relaxation and wellness. Through gentle pressure, stretching, and individualized care, many clients find Shiatsu to be a calming addition to their self-care routine."
+    ),
+
+    p(
+      "At Relief Plus Wellness, our 60- and 90-minute Shiatsu sessions are tailored to your comfort and wellness goals, providing a peaceful space to relax, recharge, and care for your body."
+    ),
+
+    p(SERVING_AREA),
+  ],
+},
+{
+  slug: "aromatherapy-massage-toronto",
+  title:
+    "Aromatherapy Massage: What You Should Know Before Your First Session",
+  excerpt:
+    "Learn what Aromatherapy Massage is, how essential oils are used, what to expect during your first session, and the potential benefits and safety considerations.",
+  category: "Wellness Treatments",
+  author: "Relief Plus Wellness Team",
+  date: "August 1, 2026",
+  readTime: "8 min read",
+  image: "/images/services/AromatherapyMassage.png",
+  content: [
+    h2(
+      "Aromatherapy Massage: What You Should Know Before Your First Session"
+    ),
+
+    p(
+      "Aromatherapy Massage combines the relaxing benefits of massage with carefully selected essential oils to create a calming and enjoyable wellness experience. Many people choose this type of massage to unwind, reduce everyday stress, and support their overall sense of well-being."
+    ),
+
+    p(
+      "At Relief Plus Wellness, we offer 60-minute and 90-minute Aromatherapy Massage sessions using high-quality essential oils selected according to your preferences and treatment goals."
+    ),
+
+    p(
+      "This guide explains what Aromatherapy Massage is, what happens during your first visit, and what research currently says about its benefits."
+    ),
+
+    h2("What Is Aromatherapy Massage?"),
+
+    p(
+      "Aromatherapy Massage combines traditional massage techniques with diluted essential oils that are applied to the skin and inhaled during the treatment."
+    ),
+
+    p(
+      "Essential oils are extracted from plants, flowers, herbs, and fruits. Each oil has its own distinctive scent, and many clients choose aromas they find pleasant and relaxing."
+    ),
+
+    p("Common essential oils include:"),
+
+    ul([
+      "Lavender",
+      "Sweet Orange",
+      "Eucalyptus",
+      "Peppermint",
+      "Bergamot",
+      "Chamomile",
+    ]),
+
+    p(
+      "Your practitioner will help you choose oils appropriate for your preferences and health history."
+    ),
+
+    h2("What Happens During Your Appointment?"),
+
+    p(
+      "Before your massage, your practitioner will ask about:"
+    ),
+
+    ul([
+      "Allergies",
+      "Sensitive skin",
+      "Pregnancy",
+      "Asthma or respiratory conditions",
+      "Current medications",
+      "Preferred scents",
+    ]),
+
+    p(
+      "The essential oils are properly diluted into a massage oil before being applied to the skin."
+    ),
+
+    p("Your massage may include:"),
+
+    ul([
+      "Long, flowing strokes",
+      "Gentle kneading",
+      "Muscle relaxation techniques",
+      "Quiet time for relaxation",
+    ]),
+
+    p(
+      "Sessions are available in 60-minute and 90-minute options."
+    ),
+
+    h2("Potential Benefits"),
+
+    p("Many clients choose Aromatherapy Massage to support:"),
+
+    ul([
+      "Relaxation",
+      "Stress management",
+      "Muscle relaxation",
+      "Improved mood",
+      "A calming wellness experience",
+      "General self-care",
+    ]),
+
+    p(
+      "Responses vary depending on the individual and the essential oils selected."
+    ),
+
+    h2("What Does the Research Say?"),
+
+    p(
+      "Research suggests massage therapy can promote relaxation and temporarily reduce stress. Some studies indicate certain essential oils—particularly lavender—may contribute to feelings of relaxation or reduced anxiety in some people."
+    ),
+
+    p("However:"),
+
+    ul([
+      "Evidence varies by essential oil and health condition.",
+      "Aromatherapy should not be considered a treatment for medical conditions.",
+      "More high-quality research is needed.",
+    ]),
+
+    p(
+      "Aromatherapy Massage is best viewed as a complementary wellness service."
+    ),
+
+    h2("Safety Considerations"),
+
+    p(
+      'Essential oils are natural, but "natural" does not always mean risk-free. Your practitioner should always be informed if you:'
+    ),
+
+    ul([
+      "Have allergies",
+      "Have asthma",
+      "Are pregnant",
+      "Have epilepsy",
+      "Have sensitive skin",
+      "Have experienced reactions to fragrances",
+    ]),
+
+    p(
+      "Essential oils should always be diluted before being applied to the skin."
+    ),
+
+    h2("Frequently Asked Questions"),
+
+    h2("Can I choose my own scent?"),
+    p(
+      "Yes. Whenever appropriate, your practitioner will help you select an essential oil or blend that matches your preferences."
+    ),
+
+    h2("Will the oils stain my clothing?"),
+    p(
+      "Professional massage oils are generally absorbed into the skin, but wearing comfortable clothing after your appointment is recommended."
+    ),
+
+    h2("Is Aromatherapy Massage safe during pregnancy?"),
+    p(
+      "Some essential oils are not recommended during pregnancy. Always tell your practitioner if you are pregnant so appropriate oils—or no essential oils—can be used."
+    ),
+
+    h2("Can Aromatherapy Massage cure anxiety or depression?"),
+    p(
+      "No. While many people find Aromatherapy Massage relaxing, it is not a substitute for medical or mental health care."
+    ),
+
+    h2("Final Thoughts"),
+
+    p(
+      "Aromatherapy Massage combines the soothing effects of massage with the pleasant experience of carefully selected essential oils. Many clients enjoy it as a relaxing way to reduce everyday stress and support overall wellness."
+    ),
+
+    p(
+      "At Relief Plus Wellness, our 60-minute and 90-minute Aromatherapy Massage sessions are personalized to your comfort, preferences, and health history. We strive to create a peaceful environment where you can relax, recharge, and enjoy the benefits of a calming massage experience."
+    ),
+
+    p(SERVING_AREA),
+  ],
+},
 ];
 
 export const blogCategories = [
