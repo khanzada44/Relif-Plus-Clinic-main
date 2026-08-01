@@ -77,11 +77,11 @@ export const doctors: Doctor[] = [
   name: "Natsuki Kagawa",
   pronouns: "She/Her/Hers",
   credential: "Holistic Wellness Practitioner",
-  specialty: "Shiatsu massage ( Japanese Acupressure )",
+  specialty: "Shiatsu Massage\n(Japanese Acupressure)",
   languages: ["English", "Japanese"],
   image: "/images/team/natsukikagawa.png",
   services: [
-    "Shiatsu massage ( Japanese Acupressure )",
+    "Shiatsu Massage \n (Japanese Acupressure)",
     "Thai Oil Massage",
     "Relaxation Massage",
     "Deep Tissue Massage",
@@ -98,7 +98,7 @@ export const doctors: Doctor[] = [
 
     'Nancy looks forward to welcoming you to Relief Plus Wellness and supporting you on your wellness journey. Her personal philosophy is: "Healing hands, peaceful mind."',
   ],
-},
+  },
 ];
 
 export function getDoctorBySlug(slug: string) {

@@ -182,10 +182,10 @@ export const services: Service[] = [
 {
   slug: "shiatsu-massage",
   category: "Traditional Japanese Bodywork",
-  title: "Shiatsu massage ( Japanese Acupressure )",
+  title: "Shiatsu Massage\n(Japanese Acupressure)",
   shortDescription: "Traditional Japanese hands-on therapy using pressure-point techniques to promote relaxation and relieve muscle tension.",
   description:
-    "Shiatsu massage ( Japanese Acupressure ) is a traditional Japanese hands-on therapy that uses comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Every session is personalized to your comfort and wellness goals.",
+    "Shiatsu Massage\n(Japanese Acupressure) is a traditional Japanese hands-on therapy that uses comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Every session is personalized to your comfort and wellness goals.",
   duration: "60 min – 90 min",
   priceFrom: 100,
   priceTiers: [

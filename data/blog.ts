@@ -3569,9 +3569,9 @@ p(
   {
   slug: "shiatsu-massage-toronto",
   title:
-    "Shiatsu Massage (Japanese Acupressure): What You Should Know Before Your First Session",
+    "Shiatsu Massage\n(Japanese Acupressure): What You Should Know Before Your First Session",
   excerpt:
-    "Learn what Shiatsu Massage (Japanese Acupressure) is, how it works, what to expect during your first session, potential benefits, and what current research says.",
+    "Learn what Shiatsu Massage\n(Japanese Acupressure) is, how it works, what to expect during your first session, potential benefits, and what current research says.",
   category: "Wellness Treatments",
   author: "Relief Plus Wellness Team",
   date: "August 1, 2026",
@@ -3579,7 +3579,7 @@ p(
   image: "/images/services/ShiatsuMassage.png",
   content: [
     h2(
-      "Shiatsu Massage (Japanese Acupressure): What You Should Know Before Your First Session"
+      "Shiatsu Massage\n(Japanese Acupressure): What You Should Know Before Your First Session"
     ),
 
     p(
