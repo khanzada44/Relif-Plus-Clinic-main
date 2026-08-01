@@ -629,7 +629,6 @@ export const blogPosts: BlogPost[] = [
     ul([
       "30 minutes",
       "45 minutes",
-      "60 minutes",
     ]),
 
     p(
@@ -972,7 +971,6 @@ export const blogPosts: BlogPost[] = [
     h2("How Long Does a Session Last?"),
     ul([
       "60 minutes",
-      "75 minutes",
       "90 minutes",
     ]),
 
@@ -2005,8 +2003,6 @@ export const blogPosts: BlogPost[] = [
     h2("How Long Does a Session Last?"),
 
     ul([
-      "30 minutes",
-      "45 minutes",
       "60 minutes",
       "90 minutes",
     ]),
@@ -2162,7 +2158,7 @@ export const blogPosts: BlogPost[] = [
   author: "Relief Plus Wellness Team",
   date: "July 31, 2026",
   readTime: "9 min read",
-  image: WellnessMassage,
+  image: TuinaOilMassage,
   content: [
     p(
       "If you're exploring complementary wellness therapies, you've likely come across Tuina (Tui Na) Massage and Gua Sha. Both are traditional techniques that originated in China and have been practiced for centuries. Today, many people choose these therapies to help relieve muscle tension, promote relaxation, and support overall well-being."
