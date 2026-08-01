@@ -18,13 +18,15 @@ import { pageMetadata } from "@/lib/metadata";
 import { SITE } from "@/constants/site";
 
 const SERVICE_FAQ_CATEGORY: Record<string, string> = {
-  acupuncture: "Acupuncture",
-  "cosmetic-acupuncture": "Acupuncture",
+  acupuncture: "Acupuncture", //cosmetic-acupuncture
+  "cosmetic-acupuncture": "Cosmetic Acupuncture",
   "wet-cupping-hijama": "Hijama (Wet Cupping)",
   "facial-cupping": "Hijama (Wet Cupping)",
   "osteopathic-therapy": "Osteopathic Therapy",
    "aromatherapy-massage": "Aromatherapy Massage",
    "shiatsu-massage": "Shiatsu massage ( Japanese Acupressure )",
+   "tuina-massage-gua-sha": "Tuina Massage & Gua Sha",
+   "cupping-therapy": "Cupping Therapy",
 };
 
 // Maps a service to the local-SEO location pages that cover the same
@@ -148,6 +150,15 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               <AccordionItem key={item.question} value={item.question}>
                 <AccordionTrigger>{item.question}</AccordionTrigger>
                 <AccordionContent>{item.answer}</AccordionContent>
+                <AccordionContent>
+                  {item.bulletPoints && (
+                    <ul className="list-disc pl-6 mt-2 space-y-1">
+                      {item.bulletPoints.map((point, index) => (
+                        <li key={index}>{point}</li>
+                      ))}
+                    </ul>
+                  )}
+                </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>

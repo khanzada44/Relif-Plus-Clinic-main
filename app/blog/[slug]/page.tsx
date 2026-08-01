@@ -30,6 +30,7 @@ const BLOG_SERVICE_LINKS: Record<string, string[]> = {
   "faq-wet-cupping-hijama": ["wet-cupping-hijama"],
   "osteopathy-east-toronto-first-visit": ["osteopathic-therapy"],
   "acupuncture-east-toronto-first-visit": ["acupuncture"],
+  
   "brazilian-lymphatic-drainage-massage-toronto": ["brazilian-lymphatic-drainage"],
   "brazilian-lymphatic-drainage-vs-manual-lymphatic-drainage": ["brazilian-lymphatic-drainage"],
   "preparing-for-brazilian-lymphatic-drainage-massage": ["brazilian-lymphatic-drainage"],

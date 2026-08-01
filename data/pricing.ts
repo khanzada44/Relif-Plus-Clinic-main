@@ -23,7 +23,6 @@ export const pricingTiers = [
       { name: "Acupuncture – Follow Up", price: 120, unit: "60 min" },
       { name: "Tuina Massage + Guasha ", price: 135, unit: "60 min" },
       { name: "Tuina Massage + Guasha ", price: 220, unit: "90 min" },
-      { name: "Tuina Massage + Guasha", price: 220, unit: "60 min" },
       { name: "Cosmetic Acupuncture – Initial", price: 160, unit: "60 min" },
       { name: "Cosmetic Acupuncture – Follow Up", price: 135, unit: "45 min" },
     ],
