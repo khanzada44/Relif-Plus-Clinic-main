@@ -701,6 +701,564 @@ export const faqs: FaqItem[] = [
     question: "Is the clinic accessible by public transit?",
     answer: "Yes. Our clinic is easily accessible by TTC — the Gerrard streetcar (506) stops directly outside our location.",
   },
+  // Brazilian Lymphatic Drainage FAQs
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "What is Brazilian Lymphatic Drainage?",
+  answer:
+    "Brazilian Lymphatic Drainage is a specialized massage technique that uses rhythmic, firm movements to stimulate the lymphatic system, helping reduce fluid retention, improve circulation, decrease swelling, and enhance body contour.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "What are the benefits of Brazilian Lymphatic Drainage?",
+  answer: "This treatment may help:",
+  bulletPoints: [
+    "Reduce water retention and bloating",
+    "Improve lymphatic circulation",
+    "Decrease swelling",
+    "Support detoxification",
+    "Enhance body contour",
+    "Promote relaxation",
+    "Improve overall well-being",
+  ],
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "Does Brazilian Lymphatic Drainage hurt?",
+  answer:
+    "No. The treatment is generally comfortable and relaxing. While the technique uses firm, rhythmic pressure, it should not be painful.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "How long does a treatment last?",
+  answer:
+    "Our Brazilian Lymphatic Drainage sessions are available in 60-minute and 90-minute appointments, depending on your goals and treatment plan.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "How many sessions will I need?",
+  answer:
+    "Some clients notice results after one treatment. However, for optimal and longer-lasting benefits, a series of treatments is often recommended based on your individual needs.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "Who can benefit from Brazilian Lymphatic Drainage?",
+  answer: "This treatment is ideal for people who:",
+  bulletPoints: [
+    "Experience swelling or fluid retention",
+    "Feel bloated",
+    "Want to improve circulation",
+    "Are looking to support recovery after cosmetic procedures (with medical clearance)",
+    "Want a more sculpted appearance",
+  ],
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "Is Brazilian Lymphatic Drainage safe?",
+  answer:
+    "Yes. It is a safe, non-invasive treatment when performed by a trained practitioner. Before your appointment, we will review your health history to ensure it is appropriate for you.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "Who should avoid Brazilian Lymphatic Drainage?",
+  answer: "This treatment may not be suitable if you have:",
+  bulletPoints: [
+    "Active infections",
+    "Blood clots (DVT)",
+    "Severe heart or kidney disease",
+    "Uncontrolled medical conditions",
+    "Certain cancers without physician approval",
+    "Please inform your practitioner about your medical history before treatment.",
+  ],
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "What should I do after my treatment?",
+  answer: "For the best results:",
+  bulletPoints: [
+    "Drink plenty of water.",
+    "Stay active with light walking if possible.",
+    "Avoid excessive alcohol and salty foods for the rest of the day.",
+    "Follow any aftercare instructions provided by your practitioner.",
+  ],
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "Can Brazilian Lymphatic Drainage help after surgery?",
+  answer:
+    "Yes. When approved by your surgeon, Brazilian Lymphatic Drainage may help reduce swelling and support recovery following certain cosmetic procedures. Always follow your surgeon's recommendations regarding when treatment can begin.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "How soon will I see results?",
+  answer:
+    "Many clients notice reduced bloating and a more sculpted appearance immediately after treatment. Results vary depending on your body, hydration, and treatment goals.",
+},
+{
+  category: "Brazilian Lymphatic Drainage",
+  question: "Can Brazilian Lymphatic Drainage be combined with other treatments?",
+  answer:
+    "Yes. It can be combined with massage therapy, cupping, facial lymphatic drainage, and other wellness treatments to support your overall health and recovery.",
+},
+// Head Massage FAQs
+{
+  category: "Head Massage",
+  question: "What is a Head Massage?",
+  answer:
+    "A Head Massage is a relaxing therapy that focuses on the scalp, neck, shoulders, and upper back. It uses gentle pressure and massage techniques to relieve tension, improve circulation, and promote relaxation.",
+},
+{
+  category: "Head Massage",
+  question: "What are the benefits of a Head Massage?",
+  answer: "A Head Massage may help:",
+  bulletPoints: [
+    "Relieve stress and anxiety",
+    "Reduce headaches and migraines",
+    "Ease neck and shoulder tension",
+    "Improve blood circulation to the scalp",
+    "Promote better sleep",
+    "Support mental relaxation",
+    "Leave you feeling refreshed and energized",
+  ],
+},
+{
+  category: "Head Massage",
+  question: "Does a Head Massage help with headaches?",
+  answer:
+    "Yes. Many clients find that Head Massage helps relieve tension headaches and reduces muscle tightness in the neck and shoulders that can contribute to headaches.",
+},
+{
+  category: "Head Massage",
+  question: "Will oil be used during the massage?",
+  answer:
+    "Depending on the treatment you choose, your practitioner may use massage oil or perform a dry head massage. If oil is used, you will be informed before the treatment begins.",
+},
+{
+  category: "Head Massage",
+  question: "How long is a Head Massage session?",
+  answer:
+    "We offer 30-minute, 60-minute, and 90-minute Head Massage sessions, depending on your needs and preferences.",
+},
+{
+  category: "Head Massage",
+  question: "What should I wear to my appointment?",
+  answer:
+    "Wear comfortable clothing. Your practitioner will ensure you are properly draped and comfortable throughout the treatment.",
+},
+{
+  category: "Head Massage",
+  question: "Is Head Massage safe?",
+  answer:
+    "Yes. Head Massage is generally safe for most people when performed by a trained practitioner. Please let us know if you have any medical conditions, recent injuries, or scalp concerns before your treatment.",
+},
+{
+  category: "Head Massage",
+  question: "Can Head Massage help reduce stress?",
+  answer:
+    "Absolutely. Head Massage is one of the most effective treatments for promoting relaxation, calming the nervous system, and reducing everyday stress and mental fatigue.",
+},
+{
+  category: "Head Massage",
+  question: "How often should I have a Head Massage?",
+  answer:
+    "The frequency depends on your needs. Many clients enjoy monthly treatments for relaxation, while those with chronic tension or stress may benefit from weekly or bi-weekly sessions.",
+},
+{
+  category: "Head Massage",
+  question: "What should I do after my Head Massage?",
+  answer: "After your treatment:",
+  bulletPoints: [
+    "Drink plenty of water.",
+    "Take a few moments to relax before returning to your daily activities.",
+    "Avoid strenuous activity if possible.",
+    "If massage oil was used, you may wish to leave it on your scalp for a short time before washing your hair.",
+  ],
+},
+{
+  category: "Head Massage",
+  question: "Can Head Massage improve scalp health?",
+  answer:
+    "Yes. By stimulating blood circulation to the scalp, Head Massage may help support a healthy scalp and contribute to healthier-looking hair. While it is not a medical treatment for hair loss, many clients enjoy the overall benefits for scalp wellness.",
+},
+{
+  category: "Head Massage",
+  question: "Can Head Massage be combined with other treatments?",
+  answer:
+    "Yes. Head Massage can be combined with full-body massage, acupuncture, aromatherapy, facial massage, or other wellness treatments for a more relaxing and therapeutic experience.",
+},
+// Hot Stone Massage FAQs
+{
+  category: "Hot Stone Massage",
+  question: "What is Hot Stone Massage?",
+  answer:
+    "Hot Stone Massage is a relaxing therapy that uses smooth, heated basalt stones placed on specific areas of the body while your therapist performs a therapeutic massage. The warmth helps relax muscles, improve circulation, and enhance the overall massage experience.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "What are the benefits of Hot Stone Massage?",
+  answer: "Hot Stone Massage may help:",
+  bulletPoints: [
+    "Relieve muscle tension and stiffness",
+    "Improve blood circulation",
+    "Reduce stress and anxiety",
+    "Promote deep relaxation",
+    "Ease chronic muscle discomfort",
+    "Improve flexibility and range of motion",
+    "Encourage better sleep",
+  ],
+},
+{
+  category: "Hot Stone Massage",
+  question: "Will the stones be too hot?",
+  answer:
+    "No. The stones are heated to a safe, comfortable temperature and are always tested before being placed on your body. If they ever feel too warm, simply let your therapist know, and the temperature will be adjusted.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "Does Hot Stone Massage hurt?",
+  answer:
+    "No. Hot Stone Massage is generally very relaxing. Your therapist can adjust the pressure to suit your comfort level, making it suitable for both gentle relaxation and deeper muscle relief.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "How long does a Hot Stone Massage session last?",
+  answer:
+    "We offer 60-minute and 90-minute Hot Stone Massage sessions, allowing enough time to relax the muscles and enjoy the full therapeutic benefits.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "Who is Hot Stone Massage recommended for?",
+  answer: "Hot Stone Massage is ideal for people who:",
+  bulletPoints: [
+    "Experience muscle tightness",
+    "Have chronic stress or tension",
+    "Want deep relaxation",
+    "Have poor circulation",
+    "Prefer warmth during their massage",
+  ],
+},
+{
+  category: "Hot Stone Massage",
+  question: "Who should avoid Hot Stone Massage?",
+  answer:
+    "Hot Stone Massage may not be suitable for individuals with certain medical conditions.",
+  bulletPoints: [
+    "Recent injuries",
+    "Burns",
+    "Severe diabetes-related nerve damage",
+    "Certain heart conditions",
+    "Pregnancy (unless approved by a healthcare provider)",
+    "Please inform your therapist of any medical concerns before your appointment.",
+  ],
+},
+{
+  category: "Hot Stone Massage",
+  question: "What should I wear to my appointment?",
+  answer:
+    "Wear comfortable clothing. You will be properly draped throughout the treatment, with only the area being worked on exposed to ensure your privacy and comfort.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "What should I do after my Hot Stone Massage?",
+  answer: "To maximize the benefits:",
+  bulletPoints: [
+    "Drink plenty of water.",
+    "Avoid strenuous exercise for the rest of the day.",
+    "Take time to relax.",
+    "Stretch gently if needed.",
+  ],
+},
+{
+  category: "Hot Stone Massage",
+  question: "Can Hot Stone Massage help with stress?",
+  answer:
+    "Yes. The combination of heat and massage encourages deep relaxation, helping calm the nervous system and reduce physical and mental stress.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "Can I combine Hot Stone Massage with other treatments?",
+  answer:
+    "Yes. Many clients combine Hot Stone Massage with acupuncture, cupping therapy, head massage, or foot massage for a more comprehensive wellness experience.",
+},
+{
+  category: "Hot Stone Massage",
+  question: "How often should I have a Hot Stone Massage?",
+  answer:
+    "For general wellness, many clients schedule a session every 3–4 weeks. If you're managing ongoing muscle tension or stress, your therapist may recommend more frequent treatments.",
+},
+// Signature Lymphatic Package FAQs
+{
+  category: "Signature Lymphatic Package",
+  question: "What is the Signature Lymphatic Package?",
+  answer:
+    "Our Signature Lymphatic Package includes three Brazilian Lymphatic Drainage sessions plus a complimentary 30-minute relaxation massage. This package is designed to support healthy circulation, reduce fluid retention, and promote overall wellness.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "Who is this package recommended for?",
+  answer: "This package is ideal for individuals who:",
+  bulletPoints: [
+    "Experience water retention or bloating",
+    "Want to support healthy lymphatic circulation",
+    "Are recovering from cosmetic procedures (with medical clearance)",
+    "Want ongoing wellness and body maintenance",
+    "Prefer a series of treatments for better results",
+  ],
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "Why does the package include three sessions?",
+  answer:
+    "Lymphatic drainage often provides the best results when performed consistently. A series of three treatments helps encourage lymph flow, reduce swelling, and achieve longer-lasting benefits.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "What are the benefits of this package?",
+  answer: "The Signature Lymphatic Package may help:",
+  bulletPoints: [
+    "Reduce fluid retention",
+    "Improve circulation",
+    "Support the body's natural detoxification process",
+    "Decrease swelling",
+    "Promote relaxation",
+    "Leave you feeling lighter and refreshed",
+  ],
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "What is included in the complimentary relaxation massage?",
+  answer:
+    "Your package includes one complimentary 30-minute relaxation massage, designed to help reduce muscle tension, relieve stress, and enhance your overall wellness experience.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "How far apart should my sessions be?",
+  answer:
+    "Most clients schedule their treatments 3 to 7 days apart, although your practitioner may recommend a different schedule based on your individual goals.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "Is this package suitable after cosmetic surgery?",
+  answer:
+    "Yes, in many cases. Post-operative lymphatic drainage can help reduce swelling and support recovery, but you should always have approval from your surgeon before beginning treatment.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "Is Brazilian Lymphatic Drainage painful?",
+  answer:
+    "No. The treatment uses gentle, rhythmic movements that are relaxing and comfortable. It is not intended to be a deep tissue massage.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "How long is each session?",
+  answer:
+    "Each Brazilian Lymphatic Drainage session lasts 60 minutes. The package also includes one complimentary 30-minute relaxation massage.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "How should I prepare for my appointment?",
+  answer: "For the best experience:",
+  bulletPoints: [
+    "Drink plenty of water before your session.",
+    "Wear comfortable clothing.",
+    "Avoid heavy meals immediately before treatment.",
+    "Arrive a few minutes early to relax.",
+  ],
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "Can I purchase this package as a gift?",
+  answer:
+    "Yes. The Signature Lymphatic Package makes an excellent gift for anyone interested in wellness, recovery, or self-care.",
+},
+{
+  category: "Signature Lymphatic Package",
+  question: "How long is the package valid?",
+  answer:
+    "Please contact our clinic for current package terms and validity. We recommend completing all sessions within the recommended timeframe to achieve the best results.",
+},
+// Advanced Lymphatic Package FAQs
+{
+  category: "Advanced Lymphatic Package",
+  question: "What is the Advanced Lymphatic Package?",
+  answer:
+    "The Advanced Lymphatic Package includes four Brazilian Lymphatic Drainage sessions plus a complimentary 45-minute relaxation massage. It is designed to provide ongoing support for healthy circulation, reduced fluid retention, and long-lasting wellness benefits.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "Who is this package best suited for?",
+  answer: "This package is ideal for people who:",
+  bulletPoints: [
+    "Experience persistent water retention",
+    "Want regular lymphatic maintenance",
+    "Are recovering from cosmetic procedures (with medical approval)",
+    "Are committed to improving circulation and reducing swelling",
+    "Want a comprehensive wellness program",
+  ],
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "Why are four lymphatic drainage sessions included?",
+  answer:
+    "Lymphatic drainage treatments often produce the best results when performed as a series. Four sessions allow your body to respond consistently, helping maintain healthy lymphatic flow and longer-lasting improvements.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "What are the benefits of the Advanced Lymphatic Package?",
+  answer: "This package may help:",
+  bulletPoints: [
+    "Reduce fluid retention and swelling",
+    "Support healthy lymphatic circulation",
+    "Improve the body's natural detoxification process",
+    "Promote tissue healing and recovery",
+    "Increase feelings of lightness and relaxation",
+    "Enhance overall wellness",
+  ],
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "What is included in the complimentary relaxation massage?",
+  answer:
+    "The package includes one 45-minute relaxation massage to help reduce muscle tension, relieve stress, improve circulation, and complement your lymphatic drainage treatments.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "How often should I schedule my sessions?",
+  answer:
+    "For the best results, most clients schedule their appointments 3 to 7 days apart. Your practitioner may recommend a personalized schedule based on your goals and health needs.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "Is this package suitable after cosmetic surgery?",
+  answer:
+    "Yes. Brazilian Lymphatic Drainage is commonly recommended after cosmetic procedures to help reduce swelling and support recovery. However, you should always receive approval from your surgeon before beginning treatment.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "Is Brazilian Lymphatic Drainage painful?",
+  answer:
+    "No. The treatment uses gentle, rhythmic techniques that are relaxing and comfortable. It is not intended to be a deep tissue massage.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "How long is each appointment?",
+  answer:
+    "Each Brazilian Lymphatic Drainage session lasts 60 minutes, and your complimentary relaxation massage lasts 45 minutes.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "How should I prepare for my appointment?",
+  answer: "To get the most from your treatment:",
+  bulletPoints: [
+    "Stay well hydrated.",
+    "Wear loose, comfortable clothing.",
+    "Avoid heavy meals immediately before your session.",
+    "Arrive a few minutes early to relax.",
+  ],
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "Can someone purchase this package as a gift?",
+  answer:
+    "Yes. The Advanced Lymphatic Package is an excellent gift for anyone interested in wellness, recovery, or self-care.",
+},
+{
+  category: "Advanced Lymphatic Package",
+  question: "How long is the package valid?",
+  answer:
+    "Please contact our clinic for current package terms and expiration details. For the best results, we recommend completing your treatments within the suggested timeframe.",
+},
+// Ultimate Lymphatic Package FAQs
+{
+  category: "Ultimate Lymphatic Package",
+  question: "What is the Ultimate Lymphatic Package?",
+  answer:
+    "The Ultimate Lymphatic Package includes five Brazilian Lymphatic Drainage sessions plus a complimentary 60-minute relaxation massage. It is designed for clients seeking long-term lymphatic support, improved circulation, and comprehensive wellness.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "Who is the Ultimate Lymphatic Package best for?",
+  answer: "This package is ideal for clients who:",
+  bulletPoints: [
+    "Want ongoing lymphatic maintenance",
+    "Experience persistent fluid retention",
+    "Are recovering from cosmetic surgery (with medical approval)",
+    "Want maximum value and long-term results",
+    "Prefer a structured wellness program",
+  ],
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "Why does this package include five sessions?",
+  answer:
+    "Lymphatic drainage is often most effective when performed consistently. Five sessions help maintain healthy lymphatic flow, reduce swelling over time, and provide longer-lasting wellness benefits.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "What are the benefits of the Ultimate Lymphatic Package?",
+  answer: "This package may help:",
+  bulletPoints: [
+    "Reduce fluid retention and swelling",
+    "Support healthy lymphatic circulation",
+    "Promote the body's natural detoxification process",
+    "Improve tissue health",
+    "Enhance recovery after cosmetic procedures",
+    "Increase relaxation and overall well-being",
+  ],
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "What is included in the complimentary relaxation massage?",
+  answer:
+    "The package includes one 60-minute relaxation massage to help relieve muscle tension, reduce stress, improve circulation, and complement your lymphatic drainage treatments.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "How often should I schedule my appointments?",
+  answer:
+    "Most clients achieve the best results by scheduling treatments every 3 to 7 days. Your practitioner may recommend a personalized treatment schedule based on your goals.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "Is this package suitable after cosmetic surgery?",
+  answer:
+    "Yes. Brazilian Lymphatic Drainage is commonly recommended to help reduce swelling and support healing after cosmetic procedures. Please ensure you have approval from your surgeon before beginning treatment.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "Is Brazilian Lymphatic Drainage painful?",
+  answer:
+    "No. The treatment uses gentle, rhythmic techniques that are relaxing and comfortable. It is designed to encourage lymph flow rather than apply deep pressure.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "How long is each appointment?",
+  answer:
+    "Each Brazilian Lymphatic Drainage session lasts 60 minutes, and your complimentary relaxation massage is 60 minutes.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "How should I prepare for my appointment?",
+  answer: "To get the best results:",
+  bulletPoints: [
+    "Drink plenty of water before your treatment.",
+    "Wear comfortable clothing.",
+    "Avoid heavy meals immediately before your appointment.",
+    "Arrive a few minutes early to relax.",
+  ],
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "Can I purchase the Ultimate Lymphatic Package as a gift?",
+  answer:
+    "Yes. This package makes an excellent gift for anyone interested in wellness, post-surgical recovery, or long-term self-care.",
+},
+{
+  category: "Ultimate Lymphatic Package",
+  question: "How long is the package valid?",
+  answer:
+    "Please contact our clinic for current package terms and validity. For optimal results, we recommend completing your treatments within the suggested treatment schedule.",
+},
 ];
 
 export const faqCategories = [

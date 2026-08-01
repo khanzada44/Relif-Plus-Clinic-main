@@ -20,9 +20,15 @@ import { SITE } from "@/constants/site";
 const SERVICE_FAQ_CATEGORY: Record<string, string> = {
   acupuncture: "Acupuncture", //cosmetic-acupuncture
   "cosmetic-acupuncture": "Cosmetic Acupuncture",
+  "brazilian-lymphatic-drainage": "Brazilian Lymphatic Drainage",
   "wet-cupping-hijama": "Hijama (Wet Cupping)",
   "facial-cupping": "Hijama (Wet Cupping)",
+  "hot-stone-therapy": "Brazilian Lymphatic Drainage",
+  "signature-lymphatic-package": "Signature Lymphatic Package",
+  "ultimate-lymphatic-package": "Advanced Lymphatic Package",
+  "Brazilian Lymphatic Drainage": "Ultimate Lymphatic Package",
   "osteopathic-therapy": "Osteopathic Therapy",
+  "head-massage": "Head Massage",
    "aromatherapy-massage": "Aromatherapy Massage",
    "shiatsu-massage": "Shiatsu massage ( Japanese Acupressure )",
    "tuina-massage-gua-sha": "Tuina Massage & Gua Sha",
