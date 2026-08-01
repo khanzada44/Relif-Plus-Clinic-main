@@ -535,14 +535,13 @@ export const faqs: FaqItem[] = [
     "Many extended health insurance plans cover acupuncture treatments. We recommend checking with your insurance provider to confirm your coverage and benefits.",
 },
   // Hijama (Wet Cupping)
-  // Facial Cupping
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "What is Facial Cupping?",
   answer: "Facial Cupping is a gentle, non-invasive therapy that uses small silicone or glass cups to stimulate circulation, encourage lymphatic drainage, and relax facial muscles. It promotes a brighter, healthier-looking complexion while helping reduce facial tension.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "What are the benefits of Facial Cupping?",
   answer: "Facial Cupping may help:",
    bulletPoints: [
@@ -556,97 +555,97 @@ export const faqs: FaqItem[] = [
   ],
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "Does Facial Cupping hurt?",
   answer: "No. Facial Cupping is very gentle and should not be painful. Most people find the treatment relaxing and enjoy the light massage-like sensation.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "Will Facial Cupping leave marks?",
   answer: "Unlike traditional body cupping, Facial Cupping usually does not leave marks. The cups are continuously moved across the skin using facial oil, making the treatment gentle and comfortable.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "How long does a Facial Cupping session take?",
   answer: "A typical Facial Cupping session lasts between 30 and 60 minutes, depending on your treatment plan.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "How many Facial Cupping treatments will I need?",
   answer: "Some clients notice an immediate glow after one session. For longer-lasting results, we typically recommend a series of treatments based on your skin goals.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "Is Facial Cupping safe?",
   answer: "Yes. Facial Cupping is generally safe when performed by a trained practitioner using proper techniques and hygienic equipment.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "Who should avoid Facial Cupping?",
   answer: "Facial Cupping may not be suitable if you have active acne breakouts, open wounds or skin infections, severe rosacea, recent facial surgery, sunburn, or certain medical conditions affecting the skin. Your practitioner will review your health history before treatment.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "What should I do before my Facial Cupping appointment?",
   answer: "Arrive with clean skin if possible and stay well hydrated. Avoid wearing heavy makeup before your appointment.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "What should I do after Facial Cupping?",
   answer: "Drink plenty of water, avoid harsh skincare products for the rest of the day, and allow your skin to recover naturally. Your practitioner will provide personalized aftercare instructions.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "Can Facial Cupping be combined with other treatments?",
   answer: "Yes. Facial Cupping works well alongside facial massage, Gua Sha, acupuncture, and many holistic skincare treatments.",
 },
 {
-  category: "Hijama (Wet Cupping)",
+  category: "Hijama (Facial Cupping)",
   question: "Is there any downtime after Facial Cupping?",
   answer: "No. Most clients return to their normal activities immediately after treatment with little or no downtime.",
 },
-  // {
-  //   category: "Hijama (Wet Cupping)",
-  //   question: "What is Hijama?",
-  //   answer: "Hijama, also known as Wet Cupping Therapy, is a traditional therapy that combines suction cups with a controlled, superficial skin technique in which small incisions are made to draw a small, controlled amount of blood.",
-  // },
-  // {
-  //   category: "Hijama (Wet Cupping)",
-  //   question: "Is Hijama the same as bloodletting?",
-  //   answer: "Hijama is a modern, controlled form of wet cupping and is sometimes referred to as bloodletting cupping. It differs from historical bloodletting practices, as it is performed using a hygienic, closely controlled approach by a trained practitioner.",
-  // },
-  // {
-  //   category: "Hijama (Wet Cupping)",
-  //   question: "What is the difference between Wet Cupping and Dry Cupping?",
-  //   answer: "Wet Cupping (Hijama) and dry Cupping Therapy both use suction cups. Wet Cupping involves an additional controlled, superficial skin technique, while dry cupping uses suction alone, with no incisions made.",
-  // },
-  // {
-  //   category: "Hijama (Wet Cupping)",
-  //   question: "Does Hijama hurt?",
-  //   answer: "Most patients experience only minimal discomfort. The technique is performed gently by a trained practitioner in a clean, controlled clinical environment.",
-  // },
-  // {
-  //   category: "Hijama (Wet Cupping)",
-  //   question: "What should I wear to my Hijama appointment?",
-  //   answer: "We recommend wearing loose, comfortable clothing that allows easy access to the area your practitioner will be treating.",
-  // },
-  // {
-  //   category: "Hijama (Wet Cupping)",
-  //   question: "Is Hijama safe?",
-  //   answer: "Yes. All Hijama treatments are performed using single-use, sterile equipment, following strict hygiene and safety standards, by a trained practitioner.",
-  // },
+  {
+    category: "Hijama (Wet Cupping)",
+    question: "What is Hijama?",
+    answer: "Hijama, also known as Wet Cupping Therapy, is a traditional therapy that combines suction cups with a controlled, superficial skin technique in which small incisions are made to draw a small, controlled amount of blood.",
+  },
+  {
+    category: "Hijama (Wet Cupping)",
+    question: "Is Hijama the same as bloodletting?",
+    answer: "Hijama is a modern, controlled form of wet cupping and is sometimes referred to as bloodletting cupping. It differs from historical bloodletting practices, as it is performed using a hygienic, closely controlled approach by a trained practitioner.",
+  },
+  {
+    category: "Hijama (Wet Cupping)",
+    question: "What is the difference between Wet Cupping and Dry Cupping?",
+    answer: "Wet Cupping (Hijama) and dry Cupping Therapy both use suction cups. Wet Cupping involves an additional controlled, superficial skin technique, while dry cupping uses suction alone, with no incisions made.",
+  },
+  {
+    category: "Hijama (Wet Cupping)",
+    question: "Does Hijama hurt?",
+    answer: "Most patients experience only minimal discomfort. The technique is performed gently by a trained practitioner in a clean, controlled clinical environment.",
+  },
+  {
+    category: "Hijama (Wet Cupping)",
+    question: "What should I wear to my Hijama appointment?",
+    answer: "We recommend wearing loose, comfortable clothing that allows easy access to the area your practitioner will be treating.",
+  },
+  {
+    category: "Hijama (Wet Cupping)",
+    question: "Is Hijama safe?",
+    answer: "Yes. All Hijama treatments are performed using single-use, sterile equipment, following strict hygiene and safety standards, by a trained practitioner.",
+  },
 
-  // // Osteopathic Therapy
-  // {
-  //   category: "Osteopathic Therapy",
-  //   question: "What is Osteopathic Therapy?",
-  //   answer: "Osteopathic Therapy is a hands-on, whole-body approach that uses manual techniques to assess and address restrictions in movement, mobility, and posture.",
-  // },
-  // {
-  //   category: "Osteopathic Therapy",
-  //   question: "Do I need a referral for Osteopathic Therapy?",
-  //   answer: "No referral is required to book an Osteopathic Therapy appointment at Relief Plus Wellness.",
-  // },
+  // Osteopathic Therapy
+  {
+    category: "Osteopathic Therapy",
+    question: "What is Osteopathic Therapy?",
+    answer: "Osteopathic Therapy is a hands-on, whole-body approach that uses manual techniques to assess and address restrictions in movement, mobility, and posture.",
+  },
+  {
+    category: "Osteopathic Therapy",
+    question: "Do I need a referral for Osteopathic Therapy?",
+    answer: "No referral is required to book an Osteopathic Therapy appointment at Relief Plus Wellness.",
+  },
   {
     category: "Osteopathic Therapy",
     question: "What should I expect during my first appointment?",

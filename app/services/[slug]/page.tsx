@@ -22,7 +22,7 @@ const SERVICE_FAQ_CATEGORY: Record<string, string> = {
   "cosmetic-acupuncture": "Cosmetic Acupuncture",
   "brazilian-lymphatic-drainage": "Brazilian Lymphatic Drainage",
   "wet-cupping-hijama": "Hijama (Wet Cupping)",
-  "facial-cupping": "Hijama (Wet Cupping)",
+  "facial-cupping": "Hijama (Facial Cupping)",
   "hot-stone-therapy": "Hot Stone Massage",
   "foot-massage": "Foot Massage",
   "signature-lymphatic-package": "Signature Lymphatic Package",

@@ -158,7 +158,7 @@ export const services: Service[] = [
   {
     slug: "hot-stone-therapy",
     category: "Wellness & Body Care",
-    title: "Hot Stone Shuiatsu msg - japnese acu",
+    title: "Hot Stone",
     shortDescription: "Warmed stones used to ease muscle tension and deepen relaxation.",
     description:
       "Smooth, heated stones are placed and gently glided over the body to help ease muscle tension and encourage a deeper state of relaxation throughout the session.",

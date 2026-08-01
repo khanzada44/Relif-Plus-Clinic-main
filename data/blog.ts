@@ -2704,7 +2704,7 @@ p(
   author: "Relief Plus Wellness Team",
   date: "May 3, 2026",
   readTime: "3 min read",
-  image: DryCuppingTherapy,
+  image: FrequentlyAsked,
   content: [
     p(
       "Cupping therapy has been practiced for thousands of years and remains a popular complementary wellness treatment. At Relief Plus Wellness, we offer Dry Cupping Therapy and Moving Cupping using modern hygiene standards and evidence-informed care."
@@ -2824,7 +2824,7 @@ p(
   author: "Relief Plus Wellness Team",
   date: "April 29, 2026",
   readTime: "4 min read",
-  image: FrequentlyAsked,
+  image: DryCuppingTherapy,
   content: [
     p(
       "Wet Cupping (Hijama) is one of the oldest traditional therapeutic practices and continues to be used as a complementary wellness therapy around the world. At Relief Plus Wellness, we provide Hijama using strict hygiene standards, sterile equipment, and an evidence-informed approach."
