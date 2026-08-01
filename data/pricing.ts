@@ -58,8 +58,8 @@ export const pricingTiers = [
       { name: "Hot Stone Massage", price: 120, unit: "60 min" },
       { name: "Hot Stone Massage", price: 155, unit: "90 min" },
 
-      { name: "Shiatsu", price: 100, unit: "60 min" },
-      { name: "Shiatsu", price: 148, unit: "90 min" },
+      { name: "Shiatsu massage ( Japanese Acupressure )", price: 100, unit: "60 min" },
+      { name: "Shiatsu massage ( Japanese Acupressure )", price: 148, unit: "90 min" },
 
       { name: "Head Massage", price: 45, unit: "30 min" },
       { name: "Head Massage", price: 60, unit: "45 min" },

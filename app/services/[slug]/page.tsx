@@ -24,7 +24,7 @@ const SERVICE_FAQ_CATEGORY: Record<string, string> = {
   "facial-cupping": "Hijama (Wet Cupping)",
   "osteopathic-therapy": "Osteopathic Therapy",
    "aromatherapy-massage": "Aromatherapy Massage",
-   "shiatsu-massage": "Shiatsu Massage",
+   "shiatsu-massage": "Shiatsu massage ( Japanese Acupressure )",
 };
 
 // Maps a service to the local-SEO location pages that cover the same

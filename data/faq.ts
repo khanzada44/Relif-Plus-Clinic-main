@@ -93,38 +93,38 @@ export const faqs: FaqItem[] = [
     answer: "We kindly ask for as much notice as possible if you need to reschedule or cancel your appointment. Please contact our clinic directly for the full details of our cancellation policy.",
   },
   {
-  category: "Shiatsu Massage",
-  question: "What is Shiatsu Massage?",
+  category: "Shiatsu massage ( Japanese Acupressure )",
+  question: "What is Shiatsu massage ( Japanese Acupressure )?",
   answer:
     "Shiatsu is a traditional Japanese massage that uses finger pressure, palm pressure, gentle stretching, and joint mobilization along the body's energy pathways to promote relaxation and support overall wellness.",
 },
 {
-  category: "Shiatsu Massage",
-  question: "Does Shiatsu Massage hurt?",
+  category: "Shiatsu massage ( Japanese Acupressure )",
+  question: "Does Shiatsu massage ( Japanese Acupressure ) hurt?",
   answer:
     "Shiatsu is generally comfortable and relaxing. Pressure is adjusted to your comfort level, and your therapist will communicate with you throughout the session.",
 },
 {
-  category: "Shiatsu Massage",
+  category: "Shiatsu massage ( Japanese Acupressure )",
   question: "Do I need to remove my clothing?",
   answer:
     "Shiatsu can be performed while wearing loose, comfortable clothing. Depending on your treatment plan, your practitioner will explain the most appropriate approach before your session.",
 },
 {
-  category: "Shiatsu Massage",
+  category: "Shiatsu massage ( Japanese Acupressure )",
   question: "What should I wear?",
   answer:
     "Loose, comfortable clothing is recommended if the treatment is performed fully clothed. If massage oil is incorporated, appropriate draping will be provided to ensure your comfort and privacy.",
 },
 {
-  category: "Shiatsu Massage",
-  question: "Who can benefit from Shiatsu Massage?",
+  category: "Shiatsu massage ( Japanese Acupressure )",
+  question: "Who can benefit from Shiatsu massage ( Japanese Acupressure )",
   answer:
-    "Shiatsu may be suitable for individuals looking to reduce muscle tension, relax, improve flexibility, and support their overall wellness routine.",
+    "Shiatsu massage ( Japanese Acupressure ) may be suitable for individuals looking to reduce muscle tension, relax, improve flexibility, and support their overall wellness routine.",
 },
 {
-  category: "Shiatsu Massage",
-  question: "Is Shiatsu Massage covered by insurance?",
+  category: "Shiatsu massage ( Japanese Acupressure )",
+  question: "Is Shiatsu massage ( Japanese Acupressure ) covered by insurance?",
   answer:
     "Coverage depends on your insurance plan. If the treatment is provided by a Registered Massage Therapist (RMT), it may be eligible for reimbursement. Please check with your insurance provider for details.",
 },

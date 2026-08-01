@@ -77,11 +77,11 @@ export const doctors: Doctor[] = [
   name: "Natsuki Kagawa",
   pronouns: "She/Her/Hers",
   credential: "Holistic Wellness Practitioner",
-  specialty: "Shiatsu (Japanese Acupressure)",
+  specialty: "Shiatsu massage ( Japanese Acupressure )",
   languages: ["English", "Japanese"],
   image: "/images/team/natsuki-kagawa.png",
   services: [
-    "Shiatsu Massage",
+    "Shiatsu massage ( Japanese Acupressure )",
     "Thai Oil Massage",
     "Relaxation Massage",
     "Deep Tissue Massage",
@@ -92,7 +92,7 @@ export const doctors: Doctor[] = [
   bio: [
     "Natsuki (Nancy) Kagawa was born and raised in Japan, where she developed a deep appreciation for holistic wellness and compassionate care. Her background as an occupational therapist in Japan provides her with a strong understanding of human anatomy, movement, and the importance of individualized, client-centered care.",
 
-    "Nancy is passionate about creating a welcoming and relaxing environment where clients can take time to care for both their body and mind. She believes that every treatment should be tailored to each individual's needs and wellness goals, whether they are seeking relaxation, relief from muscle tension, or support for their overall well-being. Through therapies including Shiatsu (Japanese Acupressure), Thai Oil Massage, Deep Tissue Massage, Aromatherapy Massage, Head Massage, and Foot Massage, she focuses on helping clients relax, restore balance, and enhance their overall wellness.",
+    "Nancy is passionate about creating a welcoming and relaxing environment where clients can take time to care for both their body and mind. She believes that every treatment should be tailored to each individual's needs and wellness goals, whether they are seeking relaxation, relief from muscle tension, or support for their overall well-being. Through therapies including Shiatsu massage ( Japanese Acupressure ), Thai Oil Massage, Deep Tissue Massage, Aromatherapy Massage, Head Massage, and Foot Massage, she focuses on helping clients relax, restore balance, and enhance their overall wellness.",
 
     "She is dedicated to helping clients feel comfortable throughout their visit and strives to provide thoughtful, attentive care with every session. Outside the clinic, Nancy enjoys spending time in nature, swimming, preparing traditional Japanese cuisine including sushi, gardening, and playing the piano. These activities reflect her belief in maintaining a balanced lifestyle and finding wellness in everyday moments.",
 
