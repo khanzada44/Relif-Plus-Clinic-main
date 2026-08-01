@@ -1259,6 +1259,184 @@ export const faqs: FaqItem[] = [
   answer:
     "Please contact our clinic for current package terms and validity. For optimal results, we recommend completing your treatments within the suggested treatment schedule.",
 },
+// Foot Massage FAQs
+{
+  category: "Foot Massage",
+  question: "What is Foot Massage?",
+  answer:
+    "Foot Massage is a therapeutic treatment that focuses on the muscles, joints, and soft tissues of the feet. It helps relieve tension, improve circulation, reduce foot fatigue, and promote overall relaxation.",
+},
+{
+  category: "Foot Massage",
+  question: "What are the benefits of Foot Massage?",
+  answer: "Foot Massage may help:",
+  bulletPoints: [
+    "Relieve tired and sore feet",
+    "Improve blood circulation",
+    "Reduce stress and tension",
+    "Ease foot and ankle discomfort",
+    "Promote relaxation",
+    "Support overall well-being",
+    "Reduce muscle tightness after standing or walking for long periods",
+  ],
+},
+{
+  category: "Foot Massage",
+  question: "Is Foot Massage the same as Reflexology?",
+  answer:
+    "No. Foot Massage focuses on relaxing the muscles and soft tissues of the feet, while Reflexology applies pressure to specific points that are believed to correspond with different organs and body systems.",
+},
+{
+  category: "Foot Massage",
+  question: "Does Foot Massage hurt?",
+  answer:
+    "Foot Massage should be comfortable and relaxing. Some tender areas may be sensitive if your feet are tight or overworked, but your practitioner will adjust the pressure to your comfort level.",
+},
+{
+  category: "Foot Massage",
+  question: "How long does a Foot Massage session last?",
+  answer:
+    "We offer 30-minute, 60-minute, and 90-minute Foot Massage sessions, depending on your needs and preferences.",
+},
+{
+  category: "Foot Massage",
+  question: "Who can benefit from a Foot Massage?",
+  answer: "Foot Massage is beneficial for people who:",
+  bulletPoints: [
+    "Spend long hours standing or walking",
+    "Experience foot fatigue or soreness",
+    "Have tight calf muscles",
+    "Enjoy relaxation treatments",
+    "Want to improve circulation in their feet and lower legs",
+  ],
+},
+{
+  category: "Foot Massage",
+  question: "Is Foot Massage safe?",
+  answer:
+    "Yes. Foot Massage is generally safe for most people. However, please inform your practitioner if you have diabetes, severe swelling, fractures, infections, blood clots, or other medical conditions affecting your feet or legs.",
+},
+{
+  category: "Foot Massage",
+  question: "What should I wear to my appointment?",
+  answer:
+    "Wear comfortable clothing that allows easy access to your feet and lower legs. You will only need to remove your shoes and socks for the treatment.",
+},
+{
+  category: "Foot Massage",
+  question: "What should I do after my Foot Massage?",
+  answer: "For the best results:",
+  bulletPoints: [
+    "Drink plenty of water.",
+    "Rest if possible.",
+    "Wear comfortable footwear after your appointment.",
+    "Gentle stretching can help prolong the benefits.",
+  ],
+},
+{
+  category: "Foot Massage",
+  question: "Can Foot Massage help with stress?",
+  answer:
+    "Yes. Foot Massage promotes deep relaxation by reducing muscle tension and calming the nervous system, making it an excellent treatment for stress relief.",
+},
+{
+  category: "Foot Massage",
+  question: "Can Foot Massage be combined with other treatments?",
+  answer:
+    "Yes. Foot Massage can be combined with full-body massage, head massage, acupuncture, cupping therapy, or other wellness treatments for a more comprehensive and relaxing experience.",
+},
+{
+  category: "Foot Massage",
+  question: "How often should I get a Foot Massage?",
+  answer:
+    "The ideal frequency depends on your lifestyle and goals. Many clients benefit from monthly treatments, while those with physically demanding jobs or chronic foot discomfort may prefer weekly or bi-weekly sessions.",
+},
+// Thai Oil Massage FAQs
+{
+  category: "Thai Oil Massage",
+  question: "What is Thai Oil Massage?",
+  answer:
+    "Thai Oil Massage combines traditional Thai massage techniques with smooth, flowing massage strokes using warm massage oil. It helps relieve muscle tension, improve circulation, increase flexibility, and promote deep relaxation.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "What are the benefits of Thai Oil Massage?",
+  answer: "Thai Oil Massage may help:",
+  bulletPoints: [
+    "Relieve muscle tension and stiffness",
+    "Improve blood circulation",
+    "Reduce stress and anxiety",
+    "Increase flexibility",
+    "Promote better sleep",
+    "Support recovery from physical activity",
+    "Improve overall relaxation and well-being",
+  ],
+},
+{
+  category: "Thai Oil Massage",
+  question: "How is Thai Oil Massage different from Traditional Thai Massage?",
+  answer:
+    "Unlike Traditional Thai Massage, which is performed fully clothed without oil and includes assisted stretching, Thai Oil Massage uses massage oil and flowing techniques for a more relaxing experience while still incorporating gentle stretching and pressure point work.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "Does Thai Oil Massage hurt?",
+  answer:
+    "Thai Oil Massage is generally gentle and relaxing. Your practitioner will adjust the pressure to your comfort level, whether you prefer light, medium, or firm pressure.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "What should I wear to my appointment?",
+  answer:
+    "You will be provided with appropriate draping during the treatment. Since massage oil is used, most clients undress to their comfort level while remaining properly covered throughout the session.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "How long does a Thai Oil Massage session last?",
+  answer:
+    "We offer 60-minute and 90-minute Thai Oil Massage sessions, allowing your practitioner to tailor the treatment to your needs.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "Is Thai Oil Massage suitable for everyone?",
+  answer:
+    "Thai Oil Massage is suitable for most healthy adults. However, it may not be recommended if you have certain medical conditions, recent injuries, fever, contagious skin conditions, or are in the early stages of pregnancy. Please inform your practitioner about your health history before treatment.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "How often should I get a Thai Oil Massage?",
+  answer:
+    "The ideal frequency depends on your goals. Some clients benefit from monthly treatments for maintenance, while others with chronic muscle tension may choose weekly or bi-weekly sessions.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "What should I do after my massage?",
+  answer: "To maximize the benefits:",
+  bulletPoints: [
+    "Drink plenty of water.",
+    "Avoid strenuous exercise for the rest of the day.",
+    "Take time to relax if possible.",
+    "Gentle stretching can help maintain flexibility.",
+  ],
+},
+{
+  category: "Thai Oil Massage",
+  question: "Can Thai Oil Massage help with stress?",
+  answer:
+    "Yes. Thai Oil Massage is an excellent treatment for reducing stress, calming the nervous system, relieving muscle tension, and promoting deep relaxation.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "Can Thai Oil Massage be combined with other treatments?",
+  answer:
+    "Yes. Thai Oil Massage can be combined with acupuncture, cupping therapy, hot stone massage, aromatherapy, or other wellness treatments for a more comprehensive treatment plan.",
+},
+{
+  category: "Thai Oil Massage",
+  question: "Will I feel sore after my massage?",
+  answer:
+    "Some clients experience mild soreness for a day or two, especially if deep pressure is used. This is a normal response and usually resolves quickly.",
+},
 ];
 
 export const faqCategories = [

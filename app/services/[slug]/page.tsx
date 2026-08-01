@@ -23,16 +23,19 @@ const SERVICE_FAQ_CATEGORY: Record<string, string> = {
   "brazilian-lymphatic-drainage": "Brazilian Lymphatic Drainage",
   "wet-cupping-hijama": "Hijama (Wet Cupping)",
   "facial-cupping": "Hijama (Wet Cupping)",
-  "hot-stone-therapy": "Brazilian Lymphatic Drainage",
+  "hot-stone-therapy": "Hot Stone Massage",
+  "foot-massage": "Foot Massage",
   "signature-lymphatic-package": "Signature Lymphatic Package",
-  "ultimate-lymphatic-package": "Advanced Lymphatic Package",
-  "Brazilian Lymphatic Drainage": "Ultimate Lymphatic Package",
+  "ultimate-lymphatic-package": "Ultimate Lymphatic Package",
+  "advanced-lymphatic-package": "Advanced Lymphatic Package",
   "osteopathic-therapy": "Osteopathic Therapy",
   "head-massage": "Head Massage",
    "aromatherapy-massage": "Aromatherapy Massage",
    "shiatsu-massage": "Shiatsu massage ( Japanese Acupressure )",
    "tuina-massage-gua-sha": "Tuina Massage & Gua Sha",
    "cupping-therapy": "Cupping Therapy",
+   "thai-oil-massage": "Thai Oil Massage",
+
 };
 
 // Maps a service to the local-SEO location pages that cover the same
