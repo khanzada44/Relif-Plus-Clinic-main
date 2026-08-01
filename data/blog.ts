@@ -3182,27 +3182,157 @@ p(
     p(SERVING_AREA),
   ],
 },
-  {
-    slug: "acupuncture-east-toronto-first-visit",
-    title:
-      "Acupuncture in East Toronto: What to Expect During Your First Visit",
-    excerpt:
-      "Booking your first acupuncture appointment in East Toronto? Learn what to expect at Relief Plus Wellness, including consultation, treatment, aftercare, direct billing, and insurance coverage information.",
-    category: "Acupuncture",
-    author: "Relief Plus Wellness Team",
-    date: "April 21, 2026",
-    readTime: "5 min read",
-    image: Acupuncture,
-    content: [
-      p(
-        "Booking your first acupuncture appointment in East Toronto? Learn what to expect at Relief Plus Wellness, including consultation, treatment, aftercare, direct billing, and insurance coverage information.",
-      ),
-      p(
-        "Your practitioner will walk you through the process and answer any questions before your session begins, so you know exactly what to expect from your first visit.",
-      ),
-      p(SERVING_AREA),
-    ],
-  },
+//  
+{
+  slug: "acupuncture-east-toronto-first-visit",
+  title: "Acupuncture in East Toronto: What to Expect During Your First Visit",
+  excerpt:
+    "Learn what happens during your first acupuncture appointment, including the consultation, treatment process, aftercare, and what to expect at Relief Plus Wellness.",
+  category: "Acupuncture",
+  author: "Relief Plus Wellness Team",
+  date: "April 29, 2026",
+  readTime: "5 min read",
+  image: Acupuncture,
+  content: [
+    // Intro
+    p(
+      "If you're considering acupuncture in East Toronto for pain relief, stress management, injury recovery, or overall wellness, it's natural to have questions before your first appointment. At Relief Plus Wellness, we understand that trying a new treatment can feel unfamiliar. Our licensed practitioners take the time to explain every step of the process, ensuring you feel comfortable, informed, and confident throughout your visit.",
+    ),
+    p(
+      "Whether you're seeking treatment for chronic pain, headaches, muscle tension, sports injuries, or general wellness, here's what you can expect during your first acupuncture appointment.",
+    ),
+
+    // What is Acupuncture
+    h2("What Is Acupuncture?"),
+    p(
+      "Acupuncture is a regulated healthcare practice that involves inserting very fine, sterile, single-use needles into specific points on the body. The treatment is designed to stimulate the body's natural healing response, improve circulation, reduce pain, and support overall physical and emotional well-being.",
+    ),
+    p(
+      "Modern research suggests acupuncture may influence the nervous system, encourage the release of natural pain-relieving chemicals such as endorphins, improve local blood flow, and help regulate inflammation.",
+    ),
+
+    // Consultation
+    h2("Your Initial Consultation"),
+    p(
+      "Every treatment begins with a comprehensive health assessment. Your practitioner will discuss your primary concerns, current symptoms, medical history, previous injuries or surgeries, medications, supplements, lifestyle habits, and your treatment goals. This information helps create a personalized treatment plan tailored to your individual needs.",
+    ),
+
+    // Assessment
+    h2("Physical Assessment"),
+    p(
+      "Depending on your condition, your practitioner may assess your posture, range of motion, muscle and joint function, painful areas, and movement patterns. This examination helps determine the most appropriate acupuncture points and any complementary treatment techniques.",
+    ),
+
+    // Treatment
+    h2("During the Treatment"),
+    p(
+      "After your assessment, you'll lie comfortably on a treatment table while your practitioner gently inserts sterile acupuncture needles into carefully selected points. Most people experience only a slight pinch, mild tingling, warmth, pressure, or a dull ache that fades quickly.",
+    ),
+    p(
+      "The needles typically remain in place for 20 to 30 minutes while you relax in a quiet treatment room. Many patients find the experience deeply calming, and some even fall asleep during treatment.",
+    ),
+
+    // Additional therapies
+    h2("Additional Therapies"),
+    p(
+      "Depending on your condition and treatment plan, your practitioner may recommend complementary therapies such as heat therapy (moxibustion), cupping therapy, electroacupuncture when clinically appropriate, therapeutic exercises, or lifestyle recommendations.",
+    ),
+
+    // Pain
+    h2("Does Acupuncture Hurt?"),
+    p(
+      "Acupuncture needles are much thinner than the needles used for injections or blood tests. While everyone experiences treatment differently, most patients report little to no discomfort and often describe acupuncture as a relaxing experience.",
+    ),
+
+    // Safety
+    h2("Are the Needles Safe?"),
+    p(
+      "Yes. Relief Plus Wellness uses sterile, pre-packaged, single-use disposable needles, Health Canada-compliant medical supplies, and follows strict infection prevention and control procedures. Every needle is safely disposed of after a single use.",
+    ),
+
+    // Duration
+    h2("How Long Does an Appointment Take?"),
+    p(
+      "Your first acupuncture appointment generally lasts 60 to 75 minutes and includes a health consultation, assessment, treatment, and personalized home-care recommendations. Follow-up appointments are typically between 30 and 60 minutes depending on your treatment plan.",
+    ),
+
+    // Clothing
+    h2("What Should I Wear?"),
+    p(
+      "Wear loose, comfortable clothing whenever possible. Depending on the treatment area, you may need to expose your arms, legs, shoulders, or back. Professional draping techniques are always used to ensure your privacy and comfort.",
+    ),
+
+    // Before appointment
+    h2("Should I Eat Before Treatment?"),
+    p(
+      "It is recommended to eat a light meal or snack before your appointment, stay well hydrated, avoid arriving on an empty stomach, and limit alcohol before your treatment.",
+    ),
+
+    // After treatment
+    h2("What Happens After Treatment?"),
+    p(
+      "After acupuncture, many patients feel more relaxed, experience reduced muscle tension, improved mobility, and an overall sense of well-being. Some people notice improvement immediately, while others experience gradual changes over several treatments. Your practitioner will discuss recovery expectations, self-care recommendations, activity guidelines, and any suggested follow-up appointments.",
+    ),
+
+    // Number of treatments
+    h2("How Many Treatments Will I Need?"),
+    p(
+      "The number of treatments depends on the type of condition, how long you've had symptoms, your overall health, and your treatment goals. Acute conditions may improve within a few visits, while chronic conditions often require a series of treatments for optimal results.",
+    ),
+
+    // Insurance
+    h2("Insurance Coverage"),
+    p(
+      "Many extended health insurance plans in Ontario include acupuncture benefits. Relief Plus Wellness offers direct billing to many insurance providers where available. We recommend checking your individual insurance plan to confirm your coverage, annual limits, and any referral requirements before your appointment.",
+    ),
+
+    // Why Choose
+    h2("Why Choose Relief Plus Wellness?"),
+    p(
+      "Patients throughout East Toronto choose Relief Plus Wellness because we provide licensed and qualified practitioners, individualized treatment plans, evidence-informed care, clean and professional treatment rooms, convenient online booking, direct insurance billing where available, and a patient-centred approach focused on safety, comfort, and long-term wellness.",
+    ),
+
+    p(
+      "We proudly serve patients from Leslieville, The Beaches, Riverdale, East York, Danforth, Greenwood-Coxwell, Little India, Scarborough, Downtown Toronto, and surrounding communities.",
+    ),
+
+    // FAQ
+    h2("Frequently Asked Questions"),
+
+    h2("Does acupuncture hurt?"),
+    p(
+      "Most people experience little to no discomfort. The needles are extremely fine, and many patients find acupuncture deeply relaxing.",
+    ),
+
+    h2("How long is the first appointment?"),
+    p(
+      "Your first visit typically lasts between 60 and 75 minutes, including the consultation, assessment, treatment, and aftercare recommendations.",
+    ),
+
+    h2("How many treatments will I need?"),
+    p(
+      "Treatment frequency depends on your condition, symptoms, overall health, and goals. Your practitioner will recommend a personalized treatment plan after your assessment.",
+    ),
+
+    h2("Is acupuncture safe?"),
+    p(
+      "Yes. We use sterile, single-use disposable needles and follow strict infection prevention and safety protocols.",
+    ),
+
+    h2("Can acupuncture be covered by insurance?"),
+    p(
+      "Many extended health insurance plans cover acupuncture treatments. Coverage varies by provider, so we recommend confirming your benefits before your appointment.",
+    ),
+
+    // CTA
+    h2("Book Your First Acupuncture Appointment"),
+    p(
+      "Whether you're seeking relief from pain, recovering from an injury, or looking to improve your overall wellness, acupuncture may be a valuable part of your healthcare plan. Our experienced practitioners are committed to providing safe, compassionate, and individualized care from your very first visit. We look forward to helping you feel your best.",
+    ),
+
+    p(SERVING_AREA),
+  ],
+},
   {
     slug: "brazilian-lymphatic-drainage-massage-toronto",
     title: "What Is Brazilian Lymphatic Drainage Massage? A Beginner's Guide",
@@ -3370,20 +3500,25 @@ p(
 
       // FAQ
       h2("Frequently Asked Questions"),
+      h2("Is Brazilian lymphatic drainage stronger than traditional lymphatic drainage?"),
       p(
-        "Is Brazilian lymphatic drainage stronger than traditional lymphatic drainage? Not necessarily — the techniques are simply different. Brazilian lymphatic drainage may feel more dynamic because of its flowing style, while traditional MLD follows very specific gentle techniques.",
+        "Not necessarily — the techniques are simply different. Brazilian lymphatic drainage may feel more dynamic because of its flowing style, while traditional MLD follows very specific gentle techniques.",
       ),
+      h2("Does it remove toxins?"),
       p(
-        "Does it remove toxins? The body naturally processes waste through organs such as the liver and kidneys, so this service should not be viewed as a detoxification treatment.",
+        "The body naturally processes waste through organs such as the liver and kidneys, so this service should not be viewed as a detoxification treatment.",
       ),
+      h2("Can it reduce bloating?"),
       p(
-        "Can it reduce bloating? Some individuals may notice temporary changes in how they feel after a massage, but results vary and massage is not a treatment for digestive conditions or chronic bloating.",
+        "Some individuals may notice temporary changes in how they feel after a massage, but results vary and massage is not a treatment for digestive conditions or chronic bloating.",
       ),
+      h2("Can I combine it with other wellness services?"),
       p(
-        "Can I combine it with other wellness services? Many clients combine massage with other wellness activities as part of their personal routine — your practitioner can help you decide what suits your preferences.",
+        "Many clients combine massage with other wellness activities as part of their personal routine — your practitioner can help you decide what suits your preferences.",
       ),
+      h2("Is it covered by insurance?"),
       p(
-        "Is it covered by insurance? Coverage depends on individual insurance plans. At Relief Plus Wellness, this is offered as a wellness service and may not qualify for insurance reimbursement.",
+        "Coverage depends on individual insurance plans. At Relief Plus Wellness, this is offered as a wellness service and may not qualify for insurance reimbursement.",
       ),
 
       p(SERVING_AREA),
@@ -3569,9 +3704,9 @@ p(
   {
   slug: "shiatsu-massage-toronto",
   title:
-    "Shiatsu Massage\n(Japanese Acupressure): What You Should Know Before Your First Session",
+    "Shiatsu Massage  (Japanese Acupressure): What You Should Know Before Your First Session",
   excerpt:
-    "Learn what Shiatsu Massage\n(Japanese Acupressure) is, how it works, what to expect during your first session, potential benefits, and what current research says.",
+    "Learn what Shiatsu Massage (Japanese Acupressure) is, how it works, what to expect during your first session, potential benefits, and what current research says.",
   category: "Wellness Treatments",
   author: "Relief Plus Wellness Team",
   date: "August 1, 2026",
@@ -3579,7 +3714,7 @@ p(
   image: "/images/services/ShiatsuMassage.png",
   content: [
     h2(
-      "Shiatsu Massage\n(Japanese Acupressure): What You Should Know Before Your First Session"
+      "Shiatsu Massage (Japanese Acupressure): What You Should Know Before Your First Session"
     ),
 
     p(

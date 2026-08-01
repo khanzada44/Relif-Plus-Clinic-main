@@ -159,7 +159,12 @@ export default function NewPatientInformationPage() {
               We kindly ask that patients provide at least 24 hours' notice if they need to cancel or reschedule their appointment. This allows us to offer the appointment time to other patients who may be waiting.
             </p>
             <p className="leading-relaxed">
-              To cancel or reschedule, please contact us by phone at {SITE.phone} or email at {SITE.email}. We understand that unexpected situations arise and appreciate your consideration.
+              To cancel or reschedule, please contact us by phone at {SITE.phone} or email at <a
+  href={`mailto:${SITE.email}`}
+  className="hover:underline"
+>
+  {SITE.email}
+</a>. We understand that unexpected situations arise and appreciate your consideration.
             </p>
           </Reveal>
         </Container>

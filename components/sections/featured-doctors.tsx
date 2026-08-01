@@ -39,11 +39,27 @@ export function FeaturedDoctors() {
               </Link>
 
                 <div className="mt-4 flex flex-wrap justify-center gap-2">
-                  {doctor.services.map((service) => (
-                    <Badge key={service} variant="outline" className="font-normal normal-case tracking-normal text-stone">
-                      {service}
-                    </Badge>
-                  ))}
+                  {doctor.services.map((service) => {
+                    const [line1, line2] = service.split("|");
+
+                    return (
+                      <Badge
+                        key={service}
+                        variant="outline"
+                        className="font-normal normal-case tracking-normal text-stone text-center"
+                      >
+                        {line2 ? (
+                          <>
+                            {line1}
+                            <br />
+                            {line2}
+                          </>
+                        ) : (
+                          line1
+                        )}
+                      </Badge>
+                    );
+                  })}
                 </div>
             </RevealItem>
           ))}

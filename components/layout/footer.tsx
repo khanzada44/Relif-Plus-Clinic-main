@@ -92,17 +92,29 @@ export function Footer() {
           <div>
             <h2 className="eyebrow text-wine-light">Services</h2>
             <ul className="mt-5 space-y-3">
-              {services.map((service) => (
+              {services.map((service) => {
+              const [line1, line2] = service.title.split("|");
+
+              return (
                 <li key={service.slug}>
                   <Link
                     href={`/services/${service.slug}`}
                     prefetch={false}
                     className="text-sm text-ivory/70 transition-colors hover:text-ivory"
                   >
-                    {service.title}
+                    {line2 ? (
+                      <>
+                        {line1}
+                        <br />
+                        {line2}
+                      </>
+                    ) : (
+                      line1
+                    )}
                   </Link>
                 </li>
-              ))}
+              );
+            })}
             </ul>
           </div>
 

@@ -182,10 +182,10 @@ export const services: Service[] = [
 {
   slug: "shiatsu-massage",
   category: "Traditional Japanese Bodywork",
-  title: "Shiatsu Massage\n(Japanese Acupressure)",
+  title: "Shiatsu Massage|(Japanese Acupressure)",
   shortDescription: "Traditional Japanese hands-on therapy using pressure-point techniques to promote relaxation and relieve muscle tension.",
   description:
-    "Shiatsu Massage\n(Japanese Acupressure) is a traditional Japanese hands-on therapy that uses comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Every session is personalized to your comfort and wellness goals.",
+    "Shiatsu Massage (Japanese Acupressure) is a traditional Japanese hands-on therapy that uses comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Every session is personalized to your comfort and wellness goals.",
   duration: "60 min – 90 min",
   priceFrom: 100,
   priceTiers: [
@@ -240,7 +240,7 @@ export const services: Service[] = [
   
 {
   slug: "signature-lymphatic-package",
-  category: "Brazilian Lymphatic Drainage",
+  category: "Brazilian Lymphatic Drainage Packegs",
   title: "Signature Lymphatic Package",
   shortDescription:
     "3 lymphatic drainage sessions with a complimentary 30-minute relaxation massage.",
@@ -257,7 +257,7 @@ export const services: Service[] = [
 },
 {
   slug: "advanced-lymphatic-package",
-  category: "Brazilian Lymphatic Drainage",
+  category: "Brazilian Lymphatic Drainage Packegs",
   title: "Advanced Lymphatic Package",
   shortDescription:
     "4 lymphatic drainage sessions with a complimentary 45-minute relaxation massage.",
@@ -274,7 +274,7 @@ export const services: Service[] = [
 },
 {
   slug: "ultimate-lymphatic-package",
-  category: "Brazilian Lymphatic Drainage",
+  category: "Brazilian Lymphatic Drainage Packegs",
   title: "Ultimate Lymphatic Package",
   shortDescription:
     "5 lymphatic drainage sessions with a complimentary 60-minute relaxation massage.",

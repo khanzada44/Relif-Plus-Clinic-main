@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 
 const GROUP_META: Record<string, { image: string; description: string }> = {
   "Traditional Chinese Medicine": {
-    image: "/images/services/traditional-chinese-medicine.png",
+    image: "/images/gallary/image6.jpg",
     description: "Traditional therapies rooted in Chinese medicine, Acupuncture, cupping, and bodywork.",
   },
   "Osteopathic Therapy": {
