@@ -88,6 +88,7 @@ export const doctors: Doctor[] = [
     "Aromatherapy Massage",
     "Head Massage",
     "Foot Massage",
+    "Services provided are non-RMT and are not eligible for RMT insurance claims"
   ],
   bio: [
     "Natsuki (Nancy) Kagawa was born and raised in Japan, where she developed a deep appreciation for holistic wellness and compassionate care. Her background as an occupational therapist in Japan provides her with a strong understanding of human anatomy, movement, and the importance of individualized, client-centered care.",
