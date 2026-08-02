@@ -38,15 +38,15 @@ export function BlogFilter({ posts, categories }: { posts: BlogPost[]; categorie
         {filtered.map((post) => (
           <RevealItem key={post.slug}>
             <Link href={`/blog/${post.slug}`} className="group block hover-lift">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  fill
-                  className="object-cover transition-transform duration-700 ease-silk group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-              </div>
+             <div className="relative aspect-[4/4] overflow-hidden rounded-2xl">
+              <Image
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover transition-transform duration-700 ease-silk group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+            </div>
               <Badge variant="wine" className="mt-4">
                 {post.category}
               </Badge>

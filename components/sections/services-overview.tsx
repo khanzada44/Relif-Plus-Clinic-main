@@ -44,12 +44,12 @@ export function ServicesOverview() {
             return (
               <RevealItem key={category}>
                 <Card className="flex h-full flex-col overflow-hidden">
-                  <div className="relative aspect-[16/10]">
+                  <div className="relative aspect-[3/4]">
                     <Image
                       src={meta.image}
                       alt={`${category} services`}
                       fill
-                      className="object-cover"
+                      className="object-cover object-center"
                       sizes="(max-width: 1024px) 100vw, 33vw"
                     />
                   </div>
