@@ -53,18 +53,16 @@ export default function DoctorsPage() {
                   <p className="mt-1 text-xs uppercase tracking-wide text-wine-dark">{doctor.credential}</p>
                 </Link>
 
-                {/* <div className="mt-4 flex flex-wrap justify-center gap-2">
-                  {doctor.services.map((service) => (
-                    <Badge key={service} variant="outline" className="font-normal normal-case tracking-normal text-stone">
-                      {service}
-                    </Badge>
-                  ))}
-                </div> */}
-
                 <div className="mt-5 flex-1" />
 
-                <Button asChild variant="outline" size="sm" className="self-center">
-                  <a href={SITE.bookingUrl} target="_blank" rel="noopener noreferrer">Book Appointment</a>
+               <Button asChild variant="outline" size="sm" className="self-center">
+                  <a
+                    href={doctor.bookingUrl || SITE.bookingUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Book Appointment
+                  </a>
                 </Button>
               </RevealItem>
             ))}

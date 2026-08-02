@@ -68,7 +68,7 @@ export const doctors: Doctor[] = [
     credential: "Holistic Wellness Practitioner",
     languages: ["English", "Ukrainian", "Russian"],
     image: "/images/team/kirena-mishchenko.png",
-    services: ["Thai Oil Massage", "Head Massage", "Hot Stone Therapy", "Foot Massage", "Herbal Compress Ball", "Brazilian Lymphatic Drainage"],
+    services: ["Thai Oil Massage", "Head Massage", "Hot Stone Therapy", "Foot Massage", "Herbal Compress Ball", "Brazilian Lymphatic Drainage","Services provided are non-RMT and are not eligible for RMT insurance claims"],
     note: "Services provided are non-RMT and are not eligible for RMT insurance claims.",
     bio: [
       "Kirena is a dedicated Holistic Wellness Practitioner committed to helping clients achieve relaxation, balance, and overall well-being through personalized, client-centered care. Her approach combines mindful bodywork and natural wellness therapies designed to ease tension, promote relaxation, and support the body's natural healing process.",
