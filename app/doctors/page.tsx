@@ -34,7 +34,7 @@ export default function DoctorsPage() {
       />
       <section className="py-20 md:py-28">
         <Container>
-          <RevealGroup className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-5">
+          <RevealGroup className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-6">
             {doctors.map((doctor) => (
 
               <RevealItem key={doctor.slug} className="flex flex-col text-center">

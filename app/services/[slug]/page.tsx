@@ -104,7 +104,20 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
         <div>
           <Badge variant="wine">{service.category}</Badge>
-          <h1 className="mt-5 font-display text-display-md text-charcoal">{service.title}</h1>
+          <h1 className="mt-5 font-display text-display-md text-charcoal">
+  {(() => {
+    const [line1, line2] = service.title.split("|");
+    return line2 ? (
+      <>
+        {line1}
+        <br />
+        {line2}
+      </>
+    ) : (
+      line1
+    );
+  })()}
+</h1>
           <p className="mt-5 leading-relaxed text-stone">{service.description}</p>
 
           {service.priceTiers ? (

@@ -61,7 +61,17 @@ export function ServiceCard({ service }: { service: Service }) {
         </Dialog.Portal>
       </Dialog.Root>
       <div className="flex flex-1 flex-col p-6">
-        <h2 className="font-display text-xl text-charcoal">{service.title}</h2>
+        <h2 className="font-display text-xl text-charcoal">
+          {service.title.includes("|") ? (
+            <>
+              {service.title.split("|")[0]}
+              <br />
+              {service.title.split("|")[1]}
+            </>
+          ) : (
+            service.title
+          )}
+        </h2>
         <p className="mt-2 flex-1 text-sm leading-relaxed text-stone">{service.shortDescription}</p>
         {service.priceTiers ? (
           <div className="mt-5 space-y-1.5 text-sm text-stone">
