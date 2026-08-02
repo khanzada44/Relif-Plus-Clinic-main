@@ -4,6 +4,7 @@ export const doctors: Doctor[] = [
   {
     slug: "mohammed-ghaleb",
     name: "Mohammed Ghaleb",
+    bookingUrl: "https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/1",
     credential: "Registered Acupuncturist (R.Ac.)",
     languages: ["English", "Arabic"],
     image: "/images/team/mohammed-ghaleb.png",
@@ -19,6 +20,7 @@ export const doctors: Doctor[] = [
   {
     slug: "canyon-lee",
     name: "Canyon Lee",
+    bookingUrl:"https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/15",
     pronouns: "She/Her/Hers",
     credential: "Registered TCM Practitioner (R.TCMP) & Registered Acupuncturist (R.Ac.)",
     languages: ["English", "Cantonese", "Mandarin"],
@@ -33,6 +35,7 @@ export const doctors: Doctor[] = [
   {
     slug: "sangeeta-kumar",
     name: "Sangeeta Kumar",
+    bookingUrl:"https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/12",
     credential: "Registered Acupuncturist (R.Ac.)",
     languages: ["English"],
     image: "/images/team/sangeeta-kumar.png",
@@ -47,6 +50,7 @@ export const doctors: Doctor[] = [
   {
     slug: "faheem-kayum",
     name: "Faheem Kayum",
+    bookingUrl:"https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/14",
     credential: "Osteopathic Manual Practitioner (M.OMSc)",
     languages: ["English"],
     image: "/images/team/faheem-kayum.png",
@@ -60,6 +64,7 @@ export const doctors: Doctor[] = [
   {
     slug: "kirena-mishchenko",
     name: "Kirena Mishchenko",
+    bookingUrl:"https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/7",
     credential: "Holistic Wellness Practitioner",
     languages: ["English", "Ukrainian", "Russian"],
     image: "/images/team/kirena-mishchenko.png",
@@ -75,6 +80,7 @@ export const doctors: Doctor[] = [
   {
   slug: "natsuki-kagawa",
   name: "Natsuki Kagawa",
+  bookingUrl:"https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/17",
   pronouns: "She/Her/Hers",
   credential: "Holistic Wellness Practitioner",
   specialty: "Shiatsu Massage (Japanese Acupressure)",

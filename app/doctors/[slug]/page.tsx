@@ -27,6 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   });
 }
 
+
+
 export default async function DoctorProfilePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const doctor = getDoctorBySlug(slug);
@@ -93,8 +95,13 @@ export default async function DoctorProfilePage({ params }: { params: Promise<{ 
           </div>
 
           <Button asChild variant="wine" size="lg" className="mt-10">
-            <a href={SITE.bookingUrl} target="_blank" rel="noopener noreferrer">
-              Book with {doctor.name.split(" ")[0]} <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+            <a
+              href={doctor.bookingUrl || SITE.bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book with {doctor.name.split(" ")[0]}
+              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
           </Button>
         </div>

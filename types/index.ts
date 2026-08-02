@@ -15,6 +15,7 @@ export interface Service {
 
 export interface Doctor {
   slug: string;
+  bookingUrl:string;
   name: string;
   pronouns?: string;
   credential: string;
