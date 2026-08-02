@@ -31,14 +31,7 @@ export function TestimonialsSection() {
         />
       <GoogleReviews />
       <TrustIndex />
-        {/* <RevealGroup className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {testimonials.map((t) => (
-            <RevealItem key={t.id}>
-              <TestimonialCard testimonial={t} />
-            </RevealItem>
-          ))}
-        </RevealGroup> */}
-
+      
         <div className="mt-14 flex flex-wrap justify-center gap-4">
           <Button asChild variant="wine" size="lg">
             <a href={SITE.googleReviewUrl} target="_blank" rel="noopener noreferrer">

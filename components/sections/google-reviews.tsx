@@ -1,7 +1,8 @@
 "use client";
+
 import { useEffect, useRef } from "react";
 
-export default function googleReviews() {
+export default function GoogleReviews() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -12,13 +13,12 @@ export default function googleReviews() {
       "https://cdn.trustindex.io/loader.js?bf3def07762c959906268fe6699";
     script.async = true;
 
-    // Script ko container ke andar hi append karo — is se
-    // trustindex.io ka document.currentScript.parentNode
-    // hamare container ko point karega, body ko nahi.
     containerRef.current.appendChild(script);
 
     return () => {
-      if (containerRef.current) containerRef.current.innerHTML = "";
+      if (containerRef.current) {
+        containerRef.current.innerHTML = "";
+      }
     };
   }, []);
 
@@ -26,7 +26,7 @@ export default function googleReviews() {
     <div
       ref={containerRef}
       className="trustindex-widget"
-      data-widget-id="e9cb2cf774b8840dff5692cb923"
+      data-widget-id="bf3def07762c959906268fe6699"
     />
   );
 }

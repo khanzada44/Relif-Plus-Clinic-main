@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useRef } from "react";
 
 export default function TrustIndex() {
@@ -8,17 +9,16 @@ export default function TrustIndex() {
     if (!containerRef.current) return;
 
     const script = document.createElement("script");
-    script.src = "https://cdn.trustindex.io/loader.js?e9cb2cf774b8840dff5692cb923";
+    script.src =
+      "https://cdn.trustindex.io/loader.js?e9cb2cf774b8840dff5692cb923";
     script.async = true;
-    // <script defer async src='https://cdn.trustindex.io/loader.js?bf3def07762c959906268fe6699'></script>
 
-    // Script ko container ke andar hi append karo — is se
-    // trustindex.io ka document.currentScript.parentNode
-    // hamare container ko point karega, body ko nahi.
     containerRef.current.appendChild(script);
 
     return () => {
-      if (containerRef.current) containerRef.current.innerHTML = "";
+      if (containerRef.current) {
+        containerRef.current.innerHTML = "";
+      }
     };
   }, []);
 
