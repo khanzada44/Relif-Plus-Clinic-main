@@ -51,10 +51,7 @@ export function Hero() {
     ];
 
     events.forEach((evt) =>
-      window.addEventListener(evt, forcePlayOnInteraction, {
-        once: true,
-        passive: true,
-      }),
+      window.addEventListener(evt, forcePlayOnInteraction, { once: true, passive: true })
     );
 
     // also retry when tab becomes visible again (some mobile browsers pause on bg)
@@ -68,9 +65,7 @@ export function Hero() {
     return () => {
       video.removeEventListener("loadedmetadata", tryPlay);
       video.removeEventListener("canplay", tryPlay);
-      events.forEach((evt) =>
-        window.removeEventListener(evt, forcePlayOnInteraction),
-      );
+      events.forEach((evt) => window.removeEventListener(evt, forcePlayOnInteraction));
       document.removeEventListener("visibilitychange", handleVisibility);
     };
   }, []);
@@ -80,17 +75,18 @@ export function Hero() {
       <m.div
         initial={{ clipPath: "inset(0 0 0 100%)" }}
         animate={{ clipPath: "inset(0 0 0 0%)" }}
-        transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
         className="absolute inset-0 overflow-hidden"
       >
         <m.div
-          initial={{ scale: 1.08 }}
+          initial={{ scale: 1.12 }}
           animate={{ scale: 1 }}
-          transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 1.8, ease: [0.22, 1, 0.36, 1] }}
           className="absolute inset-0"
         >
+          {/* Fallback background so section isn't blank while video loads on mobile */}
           <div
-            className={`absolute inset-0 bg-charcoal transition-opacity duration-500 ${
+            className={`absolute inset-0 bg-charcoal transition-opacity duration-700 ${
               videoLoaded ? "opacity-0" : "opacity-100"
             }`}
           />
@@ -101,7 +97,10 @@ export function Hero() {
             muted
             loop
             playsInline
-            preload="metadata"
+            // @ts-ignore - needed for older iOS Safari
+            webkit-playsinline="true"
+            disablePictureInPicture
+            preload="auto"
             onCanPlay={() => setVideoLoaded(true)}
             onLoadedData={() => setVideoLoaded(true)}
             className="absolute inset-0 h-full w-full object-cover"
@@ -109,16 +108,20 @@ export function Hero() {
             <source src="/videos/hero.mp4" type="video/mp4" />
           </video>
         </m.div>
-
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/30 to-charcoal/10" />
       </m.div>
 
       <Container className="relative z-10">
-        <div className="max-w-2xl">
+        <m.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          className="max-w-2xl"
+        >
           <m.div
-            initial={{ opacity: 0, y: 8 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.7, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="inline-flex items-center rounded-full border border-ivory/20 bg-charcoal/50 px-5 py-2.5 backdrop-blur-md"
           >
             <span className="text-sm font-semibold tracking-wide text-champagne md:text-base">
@@ -127,57 +130,31 @@ export function Hero() {
           </m.div>
 
           <h1 className="mt-6 font-display text-4xl italic text-ivory">
-            Acupuncture, Brazilian Lymphatic Drainage & Osteopathic Therapy in
-            East Toronto.
+            Acupuncture, Brazilian Lymphatic Drainage & Osteopathic Therapy in East Toronto.
           </h1>
-
           <p className="mt-6 max-w-lg text-xl font-bold leading-relaxed text-white">
-            Relief Plus Wellness is a professional wellness clinic located at
-            1403 Gerrard St E, Toronto, offering Acupuncture, Osteopathic
-            Therapy, Wet Cupping (Hijama), Cupping Therapy, Cosmetic
-            Acupuncture, Tuina Massage & Gua Sha, Thai Oil Massage, Brazilian
-            Lymphatic Drainage, and Head Massage. We proudly serve Leslieville,
-            The Beaches, East York, Riverdale, Danforth, Greenwood-Coxwell,
-            Upper Beaches, Little India, Scarborough, Downtown Toronto, and
-            surrounding East Toronto communities.
+            Relief Plus Wellness is a professional wellness clinic located at 1403 Gerrard St E, Toronto, offering Acupuncture, Osteopathic Therapy, Wet Cupping (Hijama), Cupping Therapy, Cosmetic Acupuncture, Tuina Massage & Gua Sha, Thai Oil Massage, Brazilian Lymphatic Drainage, and Head Massage.
+            We proudly serve Leslieville, The Beaches, East York, Riverdale, Danforth, Greenwood-Coxwell, Upper Beaches, Little India, Scarborough, Downtown Toronto, and surrounding East Toronto communities.
           </p>
-
-          <m.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.4, delay: 0.15 }}
-            className="mt-10 flex flex-wrap items-center gap-4"
-          >
+          <div className="mt-10 flex flex-wrap items-center gap-4">
             <Button asChild variant="wine" size="lg">
-              <a
-                href={SITE.bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Book Appointment
-                <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              <a href={SITE.bookingUrl} target="_blank" rel="noopener noreferrer">
+                Book Appointment <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
             </Button>
-
-            <Button
-              asChild
-              variant="ghost"
-              size="lg"
-              className="bg-ivory/10 text-ivory"
-            >
+            <Button asChild variant="ghost" size="lg" className="text-ivory bg-ivory/10">
               <Link href="/about">
-                <Play className="h-4 w-4" />
-                Watch Our Story
+                <Play className="h-4 w-4" /> Watch Our Story
               </Link>
             </Button>
-          </m.div>
-        </div>
+          </div>
+        </m.div>
       </Container>
 
       <m.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.8 }}
+        transition={{ delay: 1.4, duration: 0.8 }}
         className="absolute bottom-10 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-ivory/50 md:flex"
       >
         <span className="text-eyebrow uppercase tracking-[0.28em]">Scroll</span>
