@@ -158,7 +158,7 @@ export const services: Service[] = [
   {
     slug: "hot-stone-therapy",
     category: "Wellness & Body Care",
-    title: "Hot Stone Shuiatsu msg - japnese acu",
+    title: "Hot Stone",
     shortDescription: "Warmed stones used to ease muscle tension and deepen relaxation.",
     description:
       "Smooth, heated stones are placed and gently glided over the body to help ease muscle tension and encourage a deeper state of relaxation throughout the session.",
@@ -169,8 +169,8 @@ export const services: Service[] = [
   },
 {
   slug: "shiatsu-massage",
-  category: "Traditional Japanese Bodywork",
-  title: "Shiatsu Massage|(Japanese Acupressure)",
+  category: "Wellness & Body Care",
+  title: "Shiatsu Massage (Japanese Acupressure)",
   shortDescription: "Traditional Japanese hands-on therapy using pressure-point techniques to promote relaxation and relieve muscle tension.",
   description:
     "Shiatsu Massage (Japanese Acupressure) is a traditional Japanese hands-on therapy that uses comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Every session is personalized to your comfort and wellness goals.",
@@ -191,7 +191,7 @@ export const services: Service[] = [
 {
   slug: "aromatherapy-massage",
 
-  category: "Traditional Wellness Therapy",
+  category: "Wellness & Body Care",
 
   title: "Aromatherapy Massage",
 

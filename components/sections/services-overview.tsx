@@ -7,6 +7,7 @@ import { SectionHeading } from "@/components/shared/section-heading";
 import { RevealGroup, RevealItem } from "@/components/shared/reveal-group";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import React from "react";
 
 const GROUP_META: Record<string, { image: string; description: string }> = {
   "Traditional Chinese Medicine": {
@@ -64,7 +65,14 @@ export function ServicesOverview() {
                             className="group flex items-center gap-1.5 text-sm text-charcoal transition-colors hover:text-wine"
                           >
                             <ChevronRight className="h-3.5 w-3.5 shrink-0 text-wine transition-transform duration-300 group-hover:translate-x-0.5" />
-                            {item.title}
+                            <>
+                                {item.title.split("|").map((line, index) => (
+                                  <React.Fragment key={index}>
+                                    {line}
+                                    {index < item.title.split("|").length - 1 && <br />}
+                                  </React.Fragment>
+                                ))}
+                              </>
                           </Link>
                         </li>
                       ))}
