@@ -79,7 +79,7 @@ export const doctors: Doctor[] = [
   credential: "Holistic Wellness Practitioner",
   specialty: "Shiatsu Massage (Japanese Acupressure)",
   languages: ["English", "Japanese"],
-  image: "/images/team/natsukikagawa.png",
+  image: "/images/team/natsuki-kagawa.png",
   services: [
     "Shiatsu Massage|(Japanese Acupressure)",
     "Thai Oil Massage",

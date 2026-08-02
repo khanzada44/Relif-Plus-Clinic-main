@@ -158,7 +158,7 @@ export const services: Service[] = [
   {
     slug: "hot-stone-therapy",
     category: "Wellness & Body Care",
-    title: "Hot Stone",
+    title: "Hot Stone Shuiatsu msg - japnese acu",
     shortDescription: "Warmed stones used to ease muscle tension and deepen relaxation.",
     description:
       "Smooth, heated stones are placed and gently glided over the body to help ease muscle tension and encourage a deeper state of relaxation throughout the session.",
@@ -167,18 +167,6 @@ export const services: Service[] = [
     image: "/images/gallary/image2.jpg",
     benefits: ["Warmed stones ease tension", "Deeply relaxing", "Often paired with massage"],
   },
-  // {
-  //   slug: "herbal-compress-ball-therapy",
-  //   category: "Wellness & Body Care",
-  //   title: "Herbal Compress Ball",
-  //   shortDescription: "Warm herbal compresses used to soothe muscles and support relaxation.",
-  //   description:
-  //     "Heated herbal compress balls are pressed and rolled over the body, releasing natural herbal warmth to soothe tired muscles and support a calming, therapeutic experience.",
-  //   duration: "60–90 min",
-  //   priceFrom: 110,
-  //   image: "/images/gallary/image3.jpg",
-  //   benefits: ["Natural herbal warmth", "Soothes tired muscles", "Deeply calming experience"],
-  // },
 {
   slug: "shiatsu-massage",
   category: "Traditional Japanese Bodywork",
