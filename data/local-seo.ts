@@ -506,6 +506,119 @@ export const localSeoPages: LocalSeoPage[] = [
 
   bookingHeading: "Book Your Brazilian Lymphatic Drainage Appointment",
   },
+  {
+  slug: "shiatsu-massage-east-york",
+  serviceLabel: "Shiatsu Massage (Japanese Acupressure)",
+  area: "East York",
+
+  seoTitle:
+    "Shiatsu Massage (Japanese Acupressure) Near East York | Relief Plus Wellness Toronto",
+
+  metaDescription:
+    "Looking for Shiatsu Massage (Japanese Acupressure) near East York? Relief Plus Wellness offers traditional Japanese acupressure therapy to help relieve muscle tension, reduce stress, promote relaxation, and support overall well-being. Book your appointment today.",
+
+  h1: "Shiatsu Massage (Japanese Acupressure) in Toronto",
+
+  subheading:
+    "Relief Plus Wellness offers Shiatsu Massage (Japanese Acupressure) in Toronto as a traditional Japanese hands-on therapy using comfortable finger pressure, palm techniques, stretching, and rhythmic movements to promote relaxation, relieve muscle tension, and support overall well-being. Conveniently located at 1403 Gerrard St E, Toronto, we proudly serve East York, Leslieville, The Beaches, Riverdale, Danforth, Greenwood-Coxwell, Upper Beaches, and surrounding communities.",
+
+  whyChoose: [
+    "Minutes From East York",
+    "Open 7 Days A Week",
+    "Same-Day Appointments Available*",
+    "Walk-In Appointments Welcome*",
+    "Online Booking Available",
+    "Experienced Massage Therapists",
+    "Personalized Treatment Plans",
+    "Relaxing & Professional Clinic Environment",
+  ],
+
+  servicesAvailable: [
+    { title: "Shiatsu Massage (Japanese Acupressure)" },
+    { title: "Stress Relief Therapy" },
+    { title: "Muscle Tension Relief" },
+    { title: "Traditional Japanese Acupressure" },
+    { title: "Relaxation Therapy" },
+    { title: "Wellness Massage" },
+    { title: "Personalized Shiatsu Treatment" },
+  ],
+
+  practitionerSlugs: [
+    "mohammed-ghaleb",
+    "canyon-lee",
+    "sangeeta-kumar",
+  ],
+
+  faqs: [
+    {
+      question: "How far is your clinic from East York?",
+      answer:
+        "Relief Plus Wellness is conveniently located at 1403 Gerrard St E, only minutes from East York.",
+    },
+    {
+      question: "What is Shiatsu Massage (Japanese Acupressure)?",
+      answer:
+        "Shiatsu Massage is a traditional Japanese hands-on therapy that uses finger pressure, palm techniques, stretching, and rhythmic movements to help promote relaxation, relieve muscle tension, and support overall well-being.",
+    },
+    {
+      question: "Does Shiatsu Massage (Japanese Acupressure) hurt?",
+      answer:
+        "Shiatsu is generally gentle and comfortable. Pressure is adjusted according to your comfort level and individual preferences.",
+    },
+    {
+      question: "Do I need to remove my clothing?",
+      answer:
+        "No. Shiatsu Massage is typically performed while you remain fully clothed in comfortable, loose-fitting clothing.",
+    },
+    {
+      question: "What should I wear?",
+      answer:
+        "Wear comfortable, loose-fitting clothing that allows easy movement during your treatment.",
+    },
+    {
+      question: "Who can benefit from Shiatsu Massage (Japanese Acupressure)?",
+      answer:
+        "Shiatsu may benefit people looking to reduce everyday stress, ease muscle tension, improve relaxation, and support their overall wellness.",
+    },
+    {
+      question: "Is Shiatsu Massage (Japanese Acupressure) covered by insurance?",
+      answer:
+        "Insurance coverage depends on your individual plan. Please contact your insurance provider or our clinic for more information.",
+    },
+  ],
+
+  serving: [
+    "East York",
+    "Leslieville",
+    "The Beaches",
+    "Riverdale",
+    "Danforth",
+    "Greenwood-Coxwell",
+    "Upper Beaches",
+    "East End Toronto",
+  ],
+
+  relatedServices: [
+    {
+      label: "Registered Massage Therapy",
+      href: "/services/registered-massage-therapy",
+    },
+    {
+      label: "Tuina Massage & Gua Sha",
+      href: "/services/tuina-massage-gua-sha",
+    },
+    {
+      label: "Acupuncture",
+      href: "/services/acupuncture",
+    },
+    {
+      label: "Cupping Therapy",
+      href: "/services/cupping-therapy",
+    },
+  ],
+
+  bookingHeading: "Book Your Shiatsu Massage (Japanese Acupressure) Appointment",
+},
 ];
 
 export function getLocalSeoPageBySlug(slug: string) {

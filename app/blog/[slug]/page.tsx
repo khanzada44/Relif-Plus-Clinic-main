@@ -26,6 +26,7 @@ const BLOG_SERVICE_LINKS: Record<string, string[]> = {
   "wellness-massage-services-east-toronto": ["head-massage", "foot-massage", "hot-stone-therapy", "thai-oil-massage"],
   "tuina-oil-massage-gua-sha": ["tuina-massage-gua-sha"],
   "brazilian-lymphatic-drainage-what-to-know": ["brazilian-lymphatic-drainage"],
+  // "aromatherapy-massage-toronto": ["aromatherapy-massage-toronto"],
   "dry-cupping-therapy-and-moving-cupping": ["cupping-therapy"],
   "faq-wet-cupping-hijama": ["wet-cupping-hijama"],
   "osteopathy-east-toronto-first-visit": ["osteopathic-therapy"],
@@ -41,6 +42,8 @@ const BLOG_LOCAL_SEO_LINKS: Record<string, string[]> = {
   "osteopathy-east-toronto-first-visit": ["osteopathic-therapy-east-toronto"],
   "acupuncture-east-toronto-first-visit": ["acupuncture-east-toronto"],
   "brazilian-lymphatic-drainage-what-to-know": [ "brazilian-lymphatic-drainage-east-york",],
+  "aromatherapy-massage-toronto":["shiatsu-massage-east-york"]
+  
 };
 
 function getRelatedLinksForPost(slug: string) {

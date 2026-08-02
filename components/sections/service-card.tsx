@@ -81,6 +81,7 @@ export function ServiceCard({ service }: { service: Service }) {
                 <span className="font-medium text-charcoal">{formatPrice(tier.price)}</span>
               </div>
             ))}
+            
           </div>
         ) : (
           <div className="mt-5 flex items-center justify-between text-sm text-stone">
