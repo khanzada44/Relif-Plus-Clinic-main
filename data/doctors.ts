@@ -79,7 +79,7 @@ export const doctors: Doctor[] = [
   },
   {
   slug: "natsuki-kagawa",
-  name: "Natsuki Kagawa",
+  name: "Natsuki ( Nancy ) Kagawa",
   bookingUrl:"https://reliefpluswellness.janeapp.com/locations/relief-plus-wellness/book#/staff_member/17",
   pronouns: "She/Her/Hers",
   credential: "Holistic Wellness Practitioner",
