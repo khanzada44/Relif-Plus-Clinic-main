@@ -7,7 +7,6 @@ import { SITE } from "@/constants/site";
 import { isProductionDeployment } from "@/lib/env";
 import "./globals.css";
 
-
 export const metadata: Metadata = {
   icons: {
     icon: [
@@ -41,16 +40,14 @@ export const metadata: Metadata = {
     follow: isProductionDeployment,
     googleBot: { index: isProductionDeployment, follow: isProductionDeployment },
   },
-  // Set GOOGLE_SITE_VERIFICATION (and equivalents) in .env.local once you have
-  // a real verification code from Search Console / Bing Webmaster Tools —
-  // omitted here rather than left blank-but-hardcoded.
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION,
+    google: 'zqevJvKQDceb8jcURcmphY-aZ9bUdd5cQYREqaTpwNc',
     other: {
-      ...(process.env.BING_SITE_VERIFICATION && { "msvalidate.01": [process.env.BING_SITE_VERIFICATION] }),
+      "facebook-domain-verification": ["qtiebgh3q6hrkd6l63lxtwc7rib3qn"],
     },
   },
 };
+// 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
